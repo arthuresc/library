@@ -4,7 +4,8 @@
 
 ## 2021-08-02 
 
-### 
+### Estudos WEBPACK
+- 
 
 ### VUE CLI (Estudos com o Edson) 
 - entry point da aplicação (?)
