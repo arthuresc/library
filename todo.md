@@ -7,14 +7,14 @@
 - entry point da aplicação (?)
 - vue inspect > output.js (gera o output.js)
 - É interessante gerar esse arquivo para debug
-chainWebpack -> ele é quem adiciona as regras do webpack pelo vue-cli 
-TODO: 
+- chainWebpack -> ele é quem adiciona as regras do webpack pelo vue-cli 
+### TODO: 
 - [ ] Conhecer sobre CI/CD
 - [ ] Saber sobre a configuração do webpack
 - [ ] Estudar sobre as configurações do Vue CLI (é um boilerplate do webpack)
 - [ ] Estudar sobre o chainWebpack 
-Notes: 
-CI/CD = continuos integration/continuos delivery
+### Notes: 
+- CI/CD = continuos integration/continuos delivery
 Essa automação de processos consiste principalmente em: ingração, entrega e implantação continuas
 E tem como função facilitar para a solução de problemas que a integração de novos códigos podem causar para a equipe
 O CI/CD aplica o monitoramento e a automação continua a todo ciclo de vida das aplicações 
