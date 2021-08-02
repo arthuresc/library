@@ -9,6 +9,8 @@
 - vue inspect > output.js (gera o output.js)
 - É interessante gerar esse arquivo para debug
 - chainWebpack -> ele é quem adiciona as regras do webpack pelo vue-cli 
+
+
 ### TODO: 
 - [ ] Conhecer sobre CI/CD
 - [ ] Saber sobre a configuração do webpack
