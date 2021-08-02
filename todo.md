@@ -20,6 +20,7 @@
 - O CI/CD aplica o monitoramento e a automação continua a todo ciclo de vida das aplicações 
 incluindo os testes (no nosso caso o Jest)
 - O CI veio com o intuito de desenvolvedores trabalharem no mesmo projeto ao mesmo tempo e em diferentes recursos/locais
+- 
 
 ***
 
