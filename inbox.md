@@ -1,5 +1,5 @@
 # Inbox
 ## Descrição:
-Entende-se que 
+Entende-se que Inbox é uma 
 
 - 
