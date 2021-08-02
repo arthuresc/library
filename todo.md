@@ -15,7 +15,7 @@
 - [ ] Conhecer sobre CI/CD
 - [ ] Saber sobre a configuração do webpack
 - [ ] Estudar sobre as configurações do Vue CLI (é um boilerplate do webpack)
-  - [ ] Estudar sobre o chainWebpack 
+  - [ ] Estudar sobre o chainWebpack w
 
 
 ### Notes: 
