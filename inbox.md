@@ -1,5 +1,5 @@
 # Inbox
 ## Descrição:
-Entende-se que Inbox é uma área ausente de u
+Entende-se que Inbox é uma área ausente de uma organização 
 
 - 
