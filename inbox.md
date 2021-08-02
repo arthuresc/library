@@ -1,5 +1,5 @@
 # Inbox
 ## Descrição:
-Entende-se que Inbox é uma 
+Entende-se que Inbox é uma área ausente de u
 
 - 
