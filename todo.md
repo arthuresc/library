@@ -14,6 +14,8 @@
 - [ ] Saber sobre a configuração do webpack
 - [ ] Estudar sobre as configurações do Vue CLI (é um boilerplate do webpack)
 - [ ] Estudar sobre o chainWebpack 
+
+
 ### Notes: 
 - CI/CD = continuos integration/continuos delivery
 - Essa automação de processos consiste principalmente em: ingração, entrega e implantação continuas
