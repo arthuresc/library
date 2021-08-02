@@ -5,4 +5,5 @@ Entende-se que Inbox é uma área ausente de uma organização para mutuo entend
 
 ## Notas:
 
+- Arrumar depois gerenciador de conhecimento
 - 
