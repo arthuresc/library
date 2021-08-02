@@ -2,9 +2,9 @@
 
 [[Inbox]] - Você encontra como fazer as notas desorganizadas
 
-## B2021-08-02 
-###VUE CLI (Estudos com o Edson) 
-entry point da aplicação (?)
+## 2021-08-02 
+### VUE CLI (Estudos com o Edson) 
+- entry point da aplicação (?)
 vue inspect > output.js (gera o output.js)
 É interessante gerar esse arquivo para debug
 chainWebpack -> ele é quem adiciona as regras do webpack pelo vue-cli 
