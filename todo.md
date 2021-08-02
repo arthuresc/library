@@ -4,6 +4,8 @@
 
 ## 2021-08-02 
 
+### 
+
 ### VUE CLI (Estudos com o Edson) 
 - entry point da aplicação (?)
 - vue inspect > output.js (gera o output.js)
