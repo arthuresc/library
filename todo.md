@@ -15,8 +15,8 @@
 - [ ] Estudar sobre o chainWebpack 
 ### Notes: 
 - CI/CD = continuos integration/continuos delivery
-Essa automação de processos consiste principalmente em: ingração, entrega e implantação continuas
-E tem como função facilitar para a solução de problemas que a integração de novos códigos podem causar para a equipe
+- Essa automação de processos consiste principalmente em: ingração, entrega e implantação continuas
+- E tem como função facilitar para a solução de problemas que a integração de novos códigos podem causar para a equipe
 O CI/CD aplica o monitoramento e a automação continua a todo ciclo de vida das aplicações 
 incluindo os testes (no nosso caso o Jest)
 O CI veio com o intuito de desenvolvedores trabalharem no mesmo projeto ao mesmo tempo e em diferentes recursos/locais
