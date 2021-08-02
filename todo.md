@@ -7,3 +7,6 @@ You can create todos in Foam.
 - [ ] You can mark it completed by pressing `Option`+`C` (or `Alt`+`C`) when your cursor is on this line
   - [ ] You can also select multiple lines and mark them all at once!
 
+
+
+
