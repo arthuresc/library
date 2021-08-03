@@ -15,4 +15,4 @@ Entende-se que Inbox é uma área ausente de uma organização para mutuo entend
 - utiliza de loaders para carregar os mais diversos tipos de arquivos
 - O webpack é uma solução para a importação de dependencias já que os navegadores não entendem a importação
 - Sem o webpack.config.js o webpack tem configurações default
-  - Entry:
+  - Entry (entrada):
