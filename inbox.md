@@ -10,4 +10,4 @@ Entende-se que Inbox é uma área ausente de uma organização para mutuo entend
 
 ### Webpack Estudos:
 
-- 
+- module bundler (ele serve para entregar )
