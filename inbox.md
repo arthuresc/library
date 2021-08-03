@@ -22,4 +22,4 @@ Entende-se que Inbox é uma área ausente de uma organização para mutuo entend
 - Vou criar um arquivo de configuração do webpack baseado no antigo do Finance todo documentado
 - O Babel é o transpilador para navegadores diversos 
   - ele vai cuidar de trazer o javascript mais avançado
-  - 
+  - ****
