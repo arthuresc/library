@@ -13,4 +13,4 @@ Entende-se que Inbox é uma área ausente de uma organização para mutuo entend
 - module bundler (ele serve para entregar um modulo da forma mais perfomatica)
 - Ele 'empacota' todas as entradas/entries que são as dependencias do projeto
 - utiliza de loaders para carregar os mais diversos tipos de arquivos
-- O webpack é uma solução para 
+- O webpack é uma solução para a importação de dependencias 
