@@ -20,4 +20,5 @@ Entende-se que Inbox é uma área ausente de uma organização para mutuo entend
 - A ordem da importação de um `loader` do webpack importa
 - existe um padrão do registro mais basico de um loader dentro do webpack
 - Vou criar um arquivo de configuração do webpack baseado no antigo do Finance todo documentado
-- O Babel é o transpilador para navegadores
+- O Babel é o transpilador para navegadores diversos 
+- 
