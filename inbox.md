@@ -5,7 +5,7 @@ Entende-se que Inbox é uma área ausente de uma organização para mutuo entend
 
 ## Notas:
 
-### Webpack Estudos
+### Webpack Estudos:
 
 - Arrumar depois gerenciador de conhecimento
 - 
