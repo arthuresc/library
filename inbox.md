@@ -17,3 +17,5 @@ Entende-se que Inbox é uma área ausente de uma organização para mutuo entend
 - Sem o webpack.config.js o webpack tem configurações default
   - Entry (entrada): é aonde fica a centralização do código do projeto, nele se encontra todos os imports e entradas de código, geralmente é um arquivo index.js
   - Output (saída): é a saída empacotada que o webpack gera apartir do projeto, ele fica na pasta configurada no webpack e por padrão é o main.js
+
+
