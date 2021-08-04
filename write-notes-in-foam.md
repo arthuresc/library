@@ -21,7 +21,7 @@
 
 ### Config dos avatares dos commits (e etc):
 * `identicon` - a geometric pattern
-`mm` - a simple, cartoon-style silhouetted outline of a person (does not vary by email hash)
+- `mm` - a simple, cartoon-style silhouetted outline of a person (does not vary by email hash)
 `monsterid` - a monster with different colors, faces, etc
 `retro` - 8-bit arcade-style pixelated faces
 `robohash` - a robot with different colors, faces, etc
