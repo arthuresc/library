@@ -19,7 +19,7 @@
 
 ## Git liens (config):
 
-### Congo
+### Config 
 
 identicon - a geometric pattern
 mm - a simple, cartoon-style silhouetted outline of a person (does not vary by email hash)
