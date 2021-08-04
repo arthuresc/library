@@ -8,4 +8,4 @@
 
 ## TODO:
 
-* [ ] Cabecinha
+* [ ] Confirmar o funcionamento da issue 
