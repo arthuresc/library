@@ -8,4 +8,4 @@
 
 ## TODO:
 
-* [ ] Confirmar o funcionamento da issue 823
+* [ ] Confirmar o funcionamento da issue {[]} 
