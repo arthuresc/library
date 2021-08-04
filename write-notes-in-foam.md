@@ -19,7 +19,7 @@
 
 ## Git liens (config):
 
-### Config dos avatares 
+### Config dos avatares dos commits (e etc)
 
 identicon - a geometric pattern
 mm - a simple, cartoon-style silhouetted outline of a person (does not vary by email hash)
