@@ -23,4 +23,5 @@ Entende-se que Inbox é uma área ausente de uma organização para mutuo entend
 - O Babel é o transpilador para navegadores diversos 
   - ele vai cuidar de trazer o javascript mais avançado
 - 
-q
+
+##
