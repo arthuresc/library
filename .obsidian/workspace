@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "c00e210e599288ba",
+        "id": "594c872972320243",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Summary.md",
-            "mode": "source"
+            "file": "000 - Summary.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Summary.md",
+                "file": "000 - Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c00e210e599288ba",
+  "active": "594c872972320243",
   "lastOpenFiles": [
+    "000 - Summary.md",
+    "001 - Configuração Linux.md",
+    "Configuração Linux.md",
     "Summary.md",
+    "readme.md",
     "Sobre _library.md",
     "configuração_linux.md",
     "Untitled.md",
-    "readme.md",
     "getting-started.md",
-    "attachments/foam-icon.png",
-    "docs/features/note-properties.md",
-    "docs/features/tags-and-tag-explorer.md",
-    "docs/features/graph-visualization.md"
+    "attachments/foam-icon.png"
   ]
 }
