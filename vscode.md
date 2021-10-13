@@ -10,7 +10,7 @@
 
 `shift` + `F7`
 
-#### Goto
+#### Goto 
 
 `ctrl` + `alt` + `O`
 ```
