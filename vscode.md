@@ -7,6 +7,5 @@
 #### Goto next/previous Symbol
 
 ```
-sasasa
 `ctrl` + `alt` + `O`
 ```
