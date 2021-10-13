@@ -4,7 +4,7 @@
 
 ### Symbols
 
-#### Goto next/previous Symbol
+#### ext/previous Symbol
 
 `F7`
 
