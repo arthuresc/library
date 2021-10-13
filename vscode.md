@@ -3,3 +3,4 @@
 ## Comandos e atalhos do vscode e extensões
 
 ### Symbols
+####
