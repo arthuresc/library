@@ -7,7 +7,7 @@
 #### Goto next/previous Symbol
 
 ```
-F7
+`F7`
 ```
 
 
