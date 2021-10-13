@@ -8,6 +8,7 @@
 
 `F7`
 
+#### Goto next/previous Symbol
 
 
 
