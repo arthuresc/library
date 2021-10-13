@@ -5,7 +5,9 @@
 ### Symbols
 
 #### Goto next/previous Symbol
-
+```
+`ctrl` + `alt` + `O`
+```
 
 
 ```
