@@ -8,6 +8,7 @@
 
 `F7`
 
+
 `shift` + `F7`
 
 #### Go to (find) Symbol
