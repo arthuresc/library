@@ -4,4 +4,5 @@
 
 ### Symbols
 
-#### Goto netx 
+#### Goto next/previous Symbol
+
