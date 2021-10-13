@@ -10,7 +10,7 @@
 
 `shift` + `F7`
 
-#### Go to (find)
+#### Go to (find) S
 
 `ctrl` + `alt` + `O`
 ```
