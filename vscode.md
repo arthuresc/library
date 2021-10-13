@@ -1,3 +1,3 @@
 # Utils para o Vscode
 
-## Comandos e atalhos 
+## Comandos e atalhos do vscode
