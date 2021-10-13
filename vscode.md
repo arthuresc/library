@@ -13,4 +13,3 @@
 #### Go to (find) Symbol
 
 `ctrl` + `alt` + `O`
-```
