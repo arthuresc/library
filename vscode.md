@@ -5,7 +5,6 @@
 ### Symbols
 
 #### Goto next/previous Symbol
-
 `F7`
 
 `shift` + `F7`
