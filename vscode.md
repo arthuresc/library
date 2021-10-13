@@ -10,7 +10,6 @@
 
 `shift` + `F7`
 
-
 #### Go to (find) Symbol
 
 `ctrl` + `alt` + `O`
