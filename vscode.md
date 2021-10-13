@@ -6,4 +6,4 @@
 
 #### Goto next/previous Symbol
 
-`ctrl` + 
+`ctrl` + alt
