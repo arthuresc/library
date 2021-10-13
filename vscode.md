@@ -6,6 +6,6 @@
 
 #### Goto next/previous Symbol
 
-``` sasa
+```
 `ctrl` + `alt` + `O`
 ```
