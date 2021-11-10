@@ -38,3 +38,4 @@ e altere `bash` por `zsh`
 	arthuresc:x:1634231:100:Arthur Escalera:/home/arthuresc:/bin/zsh
 
 Reinicie o sistema.
+
