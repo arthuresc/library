@@ -1,5 +1,25 @@
 # Javascript
 
+## Operator (Operadores)
+
+### Double Exclamation ou Double Bang (hihi)
+
+Não são considerados um operador já que são o uso do operador `!` duplamente, sendo que quando se usa somente `!` ele trata de tranformar um valor `falsey` ou `truthy` em `false` ou `true` e depois inverte o seu valor por se tratar de um `NOT` mas quando usado o `!!` ele acaba fazendo exatamente a mesma coisa porém invertendo o valor 2 vezes, logo, retornando ao valor original. Ele é o literalmente o uso de dois operadores `!`.
+
+Ex de resultado `true`
+```
+function test(){
+  return !!{nome: "Arthur"}
+};
+```
+
+Ex de resultado `false`
+```
+function test(){
+  return !!undefined
+};
+```
+
 ## Arrays
 
 ### .reduce
