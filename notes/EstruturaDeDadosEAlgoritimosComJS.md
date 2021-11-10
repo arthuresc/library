@@ -1,5 +1,0 @@
-# Inicio
-
-## Arrays
-
-### Inserir 
