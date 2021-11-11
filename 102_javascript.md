@@ -2,6 +2,13 @@
 
 ## Operator (Operadores)
 
+### delete
+É um operador para exclusão de elementos, inclusive elementos dentro de objetos ou arrays, mas não recomendado o uso pois ele classifica o espaço posteriormente como `undefined`, nesse caso (em objetos ou arrays) o melhor são as funções já existentes.
+
+```
+delete number[2]
+```
+
 ### Double Exclamation ou Double Bang (hihi)
 
 Não são considerados um operador já que são o uso do operador `!` duplamente, sendo que quando se usa somente `!` ele trata de tranformar um valor `falsey` ou `truthy` em `false` ou `true` e depois inverte o seu valor por se tratar de um `NOT` mas quando usado o `!!` ele acaba fazendo exatamente a mesma coisa porém invertendo o valor 2 vezes, logo, retornando ao valor original. Ele é o literalmente o uso de dois operadores `!`.
@@ -21,6 +28,23 @@ function test(){
 ```
 
 ## Arrays
+
+### .splice
+
+A função retira ou insere elementos dentro de um array independente da ordem pois ele possui controle do local de inicio de entrada ou saida.
+
+Exemplo de uso:
+
+number.splice(5, 0, 6, 7, 2);
+
+| array 	| função 	| arg1 	| arg2 	| arg3 	| arg4 	| arg5 	|
+|:-----:	|:------:	|:----:	|:----:	|:----:	|:----:	|:----:	|
+| number 	| .splice |   5  	|   0  	|  6   	|   7  	|   2  	|
+
+arg1: A posição a partir que será realizadas as tarefas da função (inserir ou excluir elementos do array)
+arg2: A quantidade de elementos à serem excluídos a partir da posição referenciada no arg1
+arg3...5: Os elementos novos que serão inseridos a partir da posição referenciada no arg1
+
 
 ### .reduce
 
