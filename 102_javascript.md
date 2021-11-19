@@ -80,3 +80,8 @@ array.unshift(37);
 ### Arrow functions =>
 
 Elas tem a propria lexidade, logo os `this` dentro delas não referenciam ao mesmo de fora e sim à ela propria.
+
+
+
+// MONTAR ARQUIVO DE REGEX E CRUZAR AS INFOS
+https://appdividend.com/2020/08/01/javascript-remove-character-from-string-example/

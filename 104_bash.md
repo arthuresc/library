@@ -25,6 +25,9 @@ sudo chmod 777 -R localAondeVoceQuerDarAsPermissoes
 cal -jy
 ```
 
+```
+cal -y
+```
 ## Forçar o fechamento de programas
 A maneira que acho mais simples nesse momento é via interface gráfica
 
