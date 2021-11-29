@@ -109,3 +109,8 @@ Elas tem a propria lexidade, logo os `this` dentro delas não referenciam ao mes
 
 // MONTAR ARQUIVO DE REGEX E CRUZAR AS INFOS
 https://appdividend.com/2020/08/01/javascript-remove-character-from-string-example/
+
+
+### PADRÕES JAVASCRIPT
+
+Objetos
