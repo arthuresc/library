@@ -29,6 +29,24 @@ function test(){
 
 ## Arrays
 
+### Destructuring (desestruturar)
+
+É fazer as referencias à indices do array de maneira mais rapida mas visualmente invertida
+
+Por que:
+
+```
+const calcularPerimetro = [4, 
+  function (lado) {
+    return 4 * lado
+  },
+];
+
+/*aonde se inicia o destructuring*/
+const [ lados, perimetro ] = calcularPerimetro
+
+/* nesse momento existe uma 'variavel' lados e outra perimetro que se referem aos indices do array calcularPerimetro */
+```
 ### .splice
 
 A função retira ou insere elementos dentro de um array independente da ordem pois ele possui controle do local de inicio de entrada ou saida.
@@ -111,6 +129,6 @@ Elas tem a propria lexidade, logo os `this` dentro delas não referenciam ao mes
 https://appdividend.com/2020/08/01/javascript-remove-character-from-string-example/
 
 
-### PADRÕES JAVASCRIPT
+## PADRÕES JAVASCRIPT
 
 Objetos

@@ -3,7 +3,7 @@
 
 
 ## Anotações e Afazeres :
-
+- 
 
 
 ## TODOs :
