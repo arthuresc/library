@@ -2,10 +2,18 @@
 
 ## Operator (Operadores)
 
+### && em operação ternária
+É usado como operador comparativo mas se usado em uma ternaria com somente 1 comparação, o qe seria a segunda comparação se torna o retorno da ternaria
+
+Exemplo em que o retorno será a string:
+```js
+total > 10000 && 'Você esta gastando muito';
+```
+
 ### delete
 É um operador para exclusão de elementos, inclusive elementos dentro de objetos ou arrays, mas não recomendado o uso pois ele classifica o espaço posteriormente como `undefined`, nesse caso (em objetos ou arrays) o melhor são as funções já existentes.
 
-```
+```js
 delete number[2]
 ```
 
@@ -14,14 +22,14 @@ delete number[2]
 Não são considerados um operador já que são o uso do operador `!` duplamente, sendo que quando se usa somente `!` ele trata de tranformar um valor `falsey` ou `truthy` em `false` ou `true` e depois inverte o seu valor por se tratar de um `NOT` mas quando usado o `!!` ele acaba fazendo exatamente a mesma coisa porém invertendo o valor 2 vezes, logo, retornando ao valor original. Ele é o literalmente o uso de dois operadores `!`.
 
 Ex de resultado `true`
-```
+```js
 function test(){
   return !!{nome: "Arthur"}
 };
 ```
 
 Ex de resultado `false`
-```
+```js
 function test(){
   return !!undefined
 };
@@ -35,7 +43,7 @@ function test(){
 
 Por que:
 
-```
+```js
 const calcularPerimetro = [4, 
   function (lado) {
     return 4 * lado
@@ -70,7 +78,7 @@ Ele resolve os elementos iterados de um array dando ao dev o iterado em questão
 
 Exemplo com `String`
 
-```
+```js
 var arrayDo = [ 'A', 'r', 't', 'h', 'u', 'r' ]
 
 arrayDo.reduce((completo, letra) => `${completo}${letra}` )
@@ -83,13 +91,13 @@ Há duas maneiras de fazer a mesma ação.
 
 Exemplo 1:
 
-```
+```js
 array[array.length] = value
 ```
 
 Exemplo 2:
 
-```
+```js
 array.push(value)
 ```
 
@@ -100,7 +108,7 @@ Ou fazer uso do metodo `unshift`
 
 Exemplo 1:
 
-```
+```js
 function insertFirstPosition(value){
   for(let i = array.length; i >= 0; i--){
     array[i] = array[i - 1];
@@ -113,7 +121,7 @@ insertFirstPosition(37);
 
 Exemplo 2:
 
-```
+```js
 array.unshift(37);
 ```
 
@@ -127,7 +135,8 @@ Elas tem a propria lexidade, logo os `this` dentro delas não referenciam ao mes
 
 // MONTAR ARQUIVO DE REGEX E CRUZAR AS INFOS
 https://appdividend.com/2020/08/01/javascript-remove-character-from-string-example/
-
+    const regex = new RegExp(`^${rule}$`);
+Só lembrar de quando montar esse arquivo sobre regexp falar aqui sobre as diferenças da saida de um new RegExp e só usar a regex dentro de uma função
 
 ## PADRÕES JAVASCRIPT
 
