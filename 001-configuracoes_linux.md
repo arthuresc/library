@@ -3,6 +3,13 @@ Configuração da maquina Linux para uso pessoal/trabalho.
 Troubleshooter de problemas que já tive antes.
 Categorizados pela tecnologia usada.
 
+
+## TROUBLESHOOTER
+
+hdusahdhduhsudhauih
+
+### Deletado o grub (perdeu o grub)
+Será necessário fazer uso de um pendrive com `ubuntu live`
 ## SNAP (repositório)
 
 ### Icone não aparece
