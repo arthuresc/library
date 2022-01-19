@@ -18,7 +18,7 @@ Uma das funções é transformar os jsx e js (novo) em js antigo
 
 ### Como iniciar o projeto react
 
-- Inicie um pacote na pasta 
+- Inicie um pacote com o minimo para um projeto
 
 1. `npm init -y`
 2. `npm install webpack webpack-cli webpack-dev-server --save-dev`
