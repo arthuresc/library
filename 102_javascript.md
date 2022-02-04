@@ -1,5 +1,55 @@
 # Javascript
 
+## Coerção de tipo em contextos booleanos
+
+### Truthy
+Todos os valores que quando avaliados no contexto booleano ele se traduzem em `true`
+
+Exemplos:
+
+`if (true)`
+
+`if ({})`
+
+`if ([])`
+
+`if (42)`
+
+`if ("foo")`
+
+`if (new Date())`
+
+`if (-42)`
+
+`if (3.14)`
+
+`if (-3.14)`
+
+`if (Infinity)`
+
+`if (-Infinity)`
+
+### Falsy
+Todos os valores que quando avaliados no contexto booleano ele se traduzem em `false`
+
+
+Exemplos:
+
+`if (false)`
+
+`if (null)`
+
+`if (undefined)`
+
+`if (0)`
+
+`if (NaN)`
+
+`if ('')`
+
+`if (document.all) [1]`
+
+***
 ## Operator (Operadores)
 
 ### && em operação ternária
@@ -35,6 +85,15 @@ function test(){
 };
 ```
 
+### Double pipe (||)
+
+São usados para dar a condição a opção de OU (OR) mas se usado de maneira ternaria pode representar a possibilidade condicional de retorno de um valor sendo um deles `truthy`
+
+```js
+const items = item || selectedItems,
+```
+
+***
 ## Arrays
 
 ### Destructuring (desestruturar)
@@ -125,6 +184,7 @@ Exemplo 2:
 array.unshift(37);
 ```
 
+***
 ## Funções
 
 ### Arrow functions =>
@@ -138,6 +198,7 @@ https://appdividend.com/2020/08/01/javascript-remove-character-from-string-examp
     const regex = new RegExp(`^${rule}$`);
 Só lembrar de quando montar esse arquivo sobre regexp falar aqui sobre as diferenças da saida de um new RegExp e só usar a regex dentro de uma função
 
+***
 ## PADRÕES JAVASCRIPT
 
 Objetos
