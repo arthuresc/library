@@ -202,3 +202,34 @@ Só lembrar de quando montar esse arquivo sobre regexp falar aqui sobre as difer
 ## PADRÕES JAVASCRIPT
 
 Objetos
+
+
+## SOLUÇÕES
+
+### SOLUÇÃO AO SWITCH...CASE
+```js
+    badgeProcessoStatusCreator(value) {
+      return (
+        {
+          F: {
+            message: 'Aberto',
+            style: 'badge-info',style: 'badge-info',
+          },
+          T: {
+            message: 'Fechado',
+            style: 'badge-success',
+          },
+          C: {
+            message: 'Cancelado',
+            style: 'badge-warning',
+          },
+        }[value.status] || {
+          message: '-',
+          style: 'badge-secondary',
+        }
+      );
+    },
+
+    //Como ele retorna um objeto, posso usar o metodo já presumindo ele sendo um objeto
+    badgeProcessoStatusCreator(valorPassado)['message']
+```

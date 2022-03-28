@@ -46,3 +46,9 @@ e altere `bash` por `zsh`
 
 Reinicie o sistema.
 
+
+## Droidcam
+### Instalando
+### Configurando 
+
+https://askubuntu.com/questions/1235389/droidcam-unable-to-find-dev-video0
