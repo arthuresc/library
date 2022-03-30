@@ -26,3 +26,11 @@ Criar palavras só porque a variavel se relaciona com outra de 'zork' e 'aZork' 
 ## Procure usar nomes passiveis de busca
 
 Nomes que explicam e não são genéricos são mais faceis de serem buscados, por isso nomes maiores se sobressaem a nomes menores, um `iterador` é muito melhor do que `i`, temos muitos i's no projeto
+
+
+## Nomes de Interfaces e Classes
+
+Simplificar mas codificar, tente trabalhar com convenções como:
+
+- Interface de Humano: IHumano
+- Classe de Humano: CHumano
