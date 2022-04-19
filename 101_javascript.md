@@ -213,7 +213,7 @@ Objetos
         {
           F: {
             message: 'Aberto',
-            style: 'badge-info',style: 'badge-info',
+            style: 'badge-info',
           },
           T: {
             message: 'Fechado',
@@ -233,3 +233,109 @@ Objetos
     //Como ele retorna um objeto, posso usar o metodo já presumindo ele sendo um objeto
     badgeProcessoStatusCreator(valorPassado)['message']
 ```
+
+
+regex + js 
+
+camel case e outros cases
+
+***adquirir conhecimento em regex***
+``` js
+function camelCase(word) {
+    return word.replace(
+        /(^|\s+)(\S)(\S*)/g,
+        function (match, space, firstLetter, rest) {
+            return space + firstLetter.toUpperCase() + rest.toLowerCase();
+        }
+    )
+}
+
+```
+
+
+array find
+
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+
+Object assign
+
+```js
+const dataObj = { data1: 'Hello world', name: 'Arthur Escalera' }
+
+const dataOriginal = { data1: 'Hello world1' }
+
+Object.assign(dataObj, dataOriginal);
+{data1: 'Hello world1', name: 'Arthur Escalera'}
+```
+
+array.from()
+
+Muito bom, ele tem um map nele
+
+```js
+// Array-like object (arguments) para um Array
+function f() {
+  return Array.from(arguments);
+}
+
+f(1, 2, 3);
+// [1, 2, 3]
+
+
+// Qualquer iterable object ...
+// com Set
+var s = new Set(["foo", window]);
+Array.from(s);
+// ["foo", window]
+
+
+// Map
+var m = new Map([[1, 2], [2, 4], [4, 8]]);
+Array.from(m);
+// [[1, 2], [2, 4], [4, 8]]
+
+
+// String
+Array.from("foo");
+// ["f", "o", "o"]
+
+
+// Usando um arrow function como função map para
+// manipular os elementos
+Array.from([1, 2, 3], x => x + x);
+// [2, 4, 6]
+
+
+// Gerando uma sequência de números
+Array.from({length: 5}, (v, k) => k);
+// [0, 1, 2, 3, 4]
+
+
+const arr1 = []
+undefined
+arr1.from({length: 5}, (v, k) => k)
+VM4035:1 Uncaught TypeError: arr1.from is not a function
+    at <anonymous>:1:6
+(anonymous) @ VM4035:1
+const arr1 = Array.from({length: 5}, (v, k) => k)
+undefined
+arr1
+(5) [0, 1, 2, 3, 4]
+
+
+
+function solution(number){
+  const index = number >= 0 ? number : 0;
+  const arr = Array.from({length: index}, (v, k) => k)
+  const result = arr.reduce((total, item) => {
+    if(item%3 === 0 || item%5 === 0){
+     return total + item
+    }else{
+      return total + 0
+    }
+  }, 0)
+  return result;
+}
+```
+
+quando for somente iterar sob o array usar o forEach se for precisar alterar valor a valor do array e vai retornar esse valores novos num array novo numa variavel nova usar o map

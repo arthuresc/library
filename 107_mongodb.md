@@ -40,3 +40,37 @@ Categories=Development;
 Terminal=false
 StartupNotify=true
 Now, we can find the icon in application launcher menu by search for robo3t
+
+### Metodo de instalar o mongo localmente
+```bash
+  sudo apt-get install mongodb
+```
+
+## Comandos no terminal do mongo
+
+### mongo
+Para entrar no terminal do mongodb
+### show dbs
+Mostra os bancos (databases) criados/em uso na maquina
+
+### show collections
+Mostra as coleções daquela base de dados
+
+### use dbsName
+Faz você dar inicio ao uso e também cria caso não exista o banco que você inseriu o nome, a gravação desse banco só será feita se for criada uma coleção (collection)
+
+### db.createCollection('collectionName')
+Cria a collection no banco em uso
+
+### db.checklists.insert()
+Insere dados
+
+### db.checklists.save()
+Inseri dados
+
+### db.checklists.find()
+Acha o valor passado
+
+### db.checklists.deleteOne()
+Acha o valor passado
+

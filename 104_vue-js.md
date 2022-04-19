@@ -3,7 +3,7 @@
 ## TROUBLESHOOTER
 
 ### watch property:
-- Quando for preciso verificar propriedades de maneira basica (sem precisar de valores novo e velho ou de suas propriedades), o melhor a se fazer é faze-lo em formato de função e não de objeto.
+- Quando for preciso verificar propriedades de maneira básica (sem precisar de valores novo e velho ou de suas propriedades), o melhor a se fazer é faze-lo em formato de função e não de objeto.
 
 
     ✅
