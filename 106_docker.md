@@ -1,5 +1,10 @@
 # Docker
 
+### TROUBLESHOOTER
+
+Erros de permissão mais comuns
+https://phoenixnap.com/kb/cannot-connect-to-the-docker-daemon-error
+
 ### Parametros
 
 - `-d`: esta informando que o container precisa rodar em background (não ficar consumindo a tela inteira com os dados)

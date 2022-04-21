@@ -6,7 +6,29 @@ Categorizados pela tecnologia usada.
 
 ## TROUBLESHOOTER
 
-hdusahdhduhsudhauih
+### openSuse - Erro de pptp vpn
+Infelizmente ele não cria automaticamente e nem consegue usar os serviços que já possui para configurar a vpn (imagino que seja exclusivo da vpn pptp) no firewall do sistema
+
+```bash
+firewall-cmd --permanent --new-service=pptp
+
+cat >/etc/firewalld/services/pptp.xml<<EOF
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <port protocol="tcp" port="1723"/>
+</service>
+EOF
+
+firewall-cmd --permanent --zone=public --add-service=pptp
+firewall-cmd --permanent --zone=public --add-masquerade
+firewall-cmd --permanent --zone=public --add-protocol=gre
+firewall-cmd --reload
+```
+
+fonte: https://serverfault.com/questions/837770/pptp-passthrough-centos-7-firewalld-router-to-windows-server
+
+### Instalando o vscode no KDE (fora de um sistema que é ou já teve Gnome)
+
 
 ### Deletado o grub (perdeu o grub)
 Será necessário fazer uso de um pendrive com `ubuntu live`
@@ -52,3 +74,4 @@ Reinicie o sistema.
 ### Configurando 
 
 https://askubuntu.com/questions/1235389/droidcam-unable-to-find-dev-video0
+
