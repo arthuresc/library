@@ -2,6 +2,9 @@
 
 ## TROUBLESHOOTER
 
+### v-for
+Não fazer mais de um mesmo `v-for` caso precise de uma validação do valor retornado dele, o `jsx` não vai conseguir carregar, faça a validação no retorno (dentro) do `v-for`
+
 ### watch property:
 - Quando for preciso verificar propriedades de maneira básica (sem precisar de valores novo e velho ou de suas propriedades), o melhor a se fazer é faze-lo em formato de função e não de objeto.
 
