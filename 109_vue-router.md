@@ -1,0 +1,1 @@
+O hash (#) tem função para que não seja observado por motores de pesquisa, caso queira que seja é só usar o `history mode` no vue router
