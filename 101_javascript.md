@@ -323,7 +323,7 @@ arr1
 (5) [0, 1, 2, 3, 4]
 
 
-
+reduce
 function solution(number){
   const index = number >= 0 ? number : 0;
   const arr = Array.from({length: index}, (v, k) => k)
@@ -337,5 +337,34 @@ function solution(number){
   return result;
 }
 ```
+
+Como criar um objeto multilevel, com aninhamento de outros objetos com base de 1 array
+
+```js
+const arrayMenus = ['especiais', 'ge', 'jabuticaba'];
+const arrayMenus2 = ['contas-pagar', 'solicitacao'];
+const menus = {}
+
+
+function trabalho(array){
+  array.reduce((total, menu, index, array) =>  {
+    let length = array.length - 1
+    console.log(menu, index , length, index === length)
+    if (index === 0)
+      return total[menu] = { children: {} };
+    if (index > 0 && index !== length){
+      return total.children[menu] = { children: {} };
+    }
+    return total.children[menu] = {};
+  }, menus)
+}
+
+trabalho(arrayMenus)
+trabalho(arrayMenus2)
+
+
+console.log(menus)
+```
+fonte: https://stackoverflow.com/questions/22562754/create-a-dynamic-nested-object-from-array-of-properties
 
 quando for somente iterar sob o array usar o forEach se for precisar alterar valor a valor do array e vai retornar esse valores novos num array novo numa variavel nova usar o map
