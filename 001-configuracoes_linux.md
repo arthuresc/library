@@ -24,7 +24,7 @@ firewall-cmd --permanent --zone=public --add-masquerade
 firewall-cmd --permanent --zone=public --add-protocol=gre
 firewall-cmd --reload
 ```
-
+ameatum1352
 fonte: https://serverfault.com/questions/837770/pptp-passthrough-centos-7-firewalld-router-to-windows-server
 
 ### Instalando o vscode no KDE (fora de um sistema que é ou já teve Gnome)

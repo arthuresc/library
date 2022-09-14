@@ -1,5 +1,10 @@
 # Utils para o Vscode
 
+## Configurações
+
+### Font do terminal + Powerline
+https://dev.to/mattstratton/making-powerline-work-in-visual-studio-code-terminal-1m7
+
 ## Comandos e atalhos do vscode e extensões
 
 ### Symbols
