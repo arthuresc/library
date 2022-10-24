@@ -5,6 +5,13 @@
 ### Font do terminal + Powerline
 https://dev.to/mattstratton/making-powerline-work-in-visual-studio-code-terminal-1m7
 
+### Erro de keyring no kde
+Instale o gnome-keyring
+
+```bash
+sudo apt install gnome-keyring
+```
+
 ## Comandos e atalhos do vscode e extensões
 
 ### Symbols

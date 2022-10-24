@@ -75,3 +75,12 @@ Reinicie o sistema.
 
 https://askubuntu.com/questions/1235389/droidcam-unable-to-find-dev-video0
 
+### Configurações padrão do powerline 10k
+[Arquivo](needs/.p10kzsh)
+
+https://stackoverflow.com/questions/61667666/keep-git-branch-name-untruncated-in-shell-using-p10k-oh-my-zsh-theme
+
+
+### Configurando editor de texto padrão do sistema (Ubuntu & Debian based)
+
+`sudo update-alternatives --config editor`

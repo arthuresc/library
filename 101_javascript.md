@@ -234,6 +234,15 @@ Objetos
     badgeProcessoStatusCreator(valorPassado)['message']
 ```
 
+### SOLUÇÃO PARA ARRAY DE VALORES UNICOS
+Para a criação de um array de valores únicos o ECMA criou uma classe que retorna um objeto com valores únicos em cada chave dele, acontece que quando se precisa de um array com essa característica é só fazer:
+
+```js
+const arrayUnique = [...new Set([2,2,4,5,6,7,8,8])]
+```
+fonte: [How to create an array of unique values in JS](https://dev.to/clairecodes/how-to-create-an-array-of-unique-values-in-javascript-using-sets-5dg6)
+
+
 
 regex + js 
 
