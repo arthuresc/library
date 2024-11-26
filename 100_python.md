@@ -1,6 +1,17 @@
 # Python
 
-## Operadores
+## Características
+
+- Tem tipagem dinâmica, quando você declara um valor ou variável não é necessário que seja declarado também o tipo do valor que sera inserido
+
+## Comportamentos
+
+#### 
+
+
+## [Operadores](https://docs.python.org/3/reference/expressions.html#operator-precedence)
+
+- [`lambda`](https://docs.python.org/3/reference/expressions.html#operator-precedence)
 
 - [`and` `not` `or`](https://docs.python.org/3/reference/expressions.html#boolean-operations)
 
@@ -19,6 +30,8 @@
 - [`type(variavel)`](https://docs.python.org/pt-br/3/library/functions.html#type): Devolve o tipo daquele valor que é seu parametro
 - [`sorted(iteravel)`]()
 - [`len()`]()
+- [`tuple()`]() - Parse de listas para tuplas.
+- [`count()`]() - Parse de listas para tuplas.
 
 ## Instruções
 
@@ -32,6 +45,9 @@
 
 - São consideradas como listas, é possível iterar e etc
 - Posso usar `f'Texto da String'` para usar código dentro da String sem precisar concatenar
+
+#### Edição de Strings
+- Rever o [exercicio](C:\Users\arthu\OneDrive\Documentos\Projetos\Python\P3-Mundo03\exercicio076.py)
 
 ## Tipos de variáveis (e listas)
 
