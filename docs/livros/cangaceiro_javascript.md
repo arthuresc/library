@@ -21,4 +21,18 @@
 >"O `document.querySelector()` é uma função que pertence ao objeto `document`, chamaremos tal função de método. Internamente, o `querySelector` tem uma chamada para o `this`, que é o contexto no qual o método é chamado, no caso `document`."
 [livro Cangaceiro Javascript, 2016]
 
-### classe Date: 
+### static, mas porque?:
+- É usado para definir métodos ou variaveis de uma classe que não usa instancias (propriedades, que só são criadas quando há a instanciação da classe) da classe
+- Em resumo, se a classe possui propriedades que precisam serem passadas quando se *instancía* ela o static não tem o porque de existir já que usar ele é se esperar você não precisar instanciar a classe no seu código e por isso não acabar colocar valor nas propriedades da classe com o constructor.
+
+### Proxy, uma solução para cascatear:
+- Ele cria uma 'cópia' do objeto passado como primeiro parametro e usa das funções `get`, `set` e `apply` internas para você conseguir cascatear logicas para o uso de maneira simples mas com uma lógica aplicada, por exemplo settar um dado de uma propriedade ser (o `apply` ainda não sei ao certo como usar, preciso especificar antes de passar para o [[101_javascript]])
+
+### Padrão: __Error-First-Callback__
+- É um padrão muito usado em código assincrono, primeiro executa as verificações de erro possiveis para depois executar o código.
+
+### Aninhando `Promises`(com o `.then()`): retorne a proxima Promise no `.then()` atual.
+- A ideia é que seria necessário aninhar as Promises pois os dados que voltam delas compõem o mesmo `array`.
+- E pra isso é só retornar o método que você precisa buscar logo em seguida do primeiro que você já fez a busca. (p.280)
+- Pratica "saudável" pois consegue evitar você criar um série de resoluções de Promises para buscar todos os valores e cascateia tudo nos `.then()`
+- Cascateamento é melhor do que Aninhamento
