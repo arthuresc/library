@@ -36,3 +36,8 @@
 - E pra isso é só retornar o método que você precisa buscar logo em seguida do primeiro que você já fez a busca. (p.280)
 - Pratica "saudável" pois consegue evitar você criar um série de resoluções de Promises para buscar todos os valores e cascateia tudo nos `.then()`
 - Cascateamento é melhor do que Aninhamento
+
+### Testando igualdade em 2 objetos
+- Uma estratégia bem usada se quiser testar se os 2 objetos inteiros são iguais é colocar cada um em string de json `JSON.stringfy(objeto)` e então comparar as duas strings resultantes
+- strings, numbers e outros tipos _**literais**_ podem ser comparados, mas objetos eles serão sempre diferentes mesmo quando identicos.
+- 
