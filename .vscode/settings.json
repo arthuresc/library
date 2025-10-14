@@ -1,5 +1,7 @@
 {
   "files.exclude": {
     "logseq/*": true
-  }
+  },
+  "cSpell.words": ["Neurociências"],
+  "foam.openDailyNote.directory": "../journal"
 }

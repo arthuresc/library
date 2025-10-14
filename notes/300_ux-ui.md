@@ -13,4 +13,8 @@
       - Logo: O seu logo e suas possiveis aplicações no projeto, não precisa ser documentado alem disso.
       - Icones: Os icones usados no seu projeto, fica até mais facil identificar caso algum deles saia muito do padrão imaginado/estipulado. Não esqueça de aplicar todos os icones em um tamanho padrão mas documente os possiveis tamanhos que podem ser usados no projeto. Caso seu projeto faça uso de diferentes cursores aqui também pode ser documentado eles.
       - Sombras: As sombras padrão do projeto, não faça MUITOS exemplos, deixe sucinto para as situações corretas.
-      - 
+
+## Critérios
+
+### Escolha da tipografia
+  - 
