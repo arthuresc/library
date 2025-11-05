@@ -14,4 +14,8 @@
   - [Bibliografia brasileira sobre Experiência do Usuário](https://brasil.uxdesign.cc/bibliografia-brasileira-sobre-experi%C3%AAncia-do-usu%C3%A1rio-12d1f0776833)
 
 ## Opções tomadas
-  - Usar [css `@import`](../206_vite-js.md#css-import-vs-html-linklink-para-importar-fontes-no-projeto)
+  - Usar [css `@import`](../notes/206_vite-js.md#css-import-vs-html-linklink-para-importar-fontes-no-projeto)
+  - Ajustar o brakpoints se ver a necessidade no futuro pelo @themes do css do tailwind
+
+## Aprendendo git
+  - Usando o modelo de mensagem de git aqui explicado [Mensagens de commit](../notes/200_git.md#mensagens-de-commit)
