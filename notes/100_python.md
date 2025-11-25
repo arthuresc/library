@@ -37,6 +37,10 @@
 
 - [`del()`]()
 
+- `with`
+  - https://www.geeksforgeeks.org/python/with-statement-in-python/
+    - (Resumir)
+
 ## Tipos
 
 ### Strings
