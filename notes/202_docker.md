@@ -65,3 +65,6 @@ docker info
 ## Teórico
 
 Objetos
+
+## Dúvidas
+- Qual a diferença entre `docker ps` e `docker-compose ps` 
