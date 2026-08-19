@@ -23,10 +23,11 @@ async function createNote({ trigger, foam, resolver }) {
 `;
 
   if (isProjeto) {
+    template += 
 `
 ----
 
-# Projeto de ${nomeMateria}
+# Projeto de ${title}
 
 ----
 
@@ -44,10 +45,10 @@ async function createNote({ trigger, foam, resolver }) {
 
 `;
   } else if (isAula) {
-`
+    template += `
 ----
 
-# Aula de ${nomeMateria}
+# Aula de ${title}
 
 ----
 
@@ -69,6 +70,7 @@ async function createNote({ trigger, foam, resolver }) {
 
 `;
   } else {
+    template += 
 `# Anotação: ${tituloNota} - Data: ${today.format('DD-MM-YYYY')}
 
 
