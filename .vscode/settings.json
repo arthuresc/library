@@ -3,5 +3,5 @@
     "logseq/*": true
   },
   "cSpell.words": ["Neurociências"],
-  "foam.openDailyNote.directory": "../journal"
+  // "foam.openDailyNote.directory": "../journal"
 }
