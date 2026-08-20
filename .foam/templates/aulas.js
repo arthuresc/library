@@ -49,7 +49,8 @@ async function createNote({ trigger, foam, resolver }) {
 
 # Aula de ${title}
 
-
+## Principal
+- ...
 
 ## O que entendi:
 - ...
