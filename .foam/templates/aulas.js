@@ -29,7 +29,7 @@ async function createNote({ trigger, foam, resolver }) {
 `
 # Projeto de ${title}
 
-===============
+
 
 ## O que precisa ser feito:
 - 
@@ -49,7 +49,7 @@ async function createNote({ trigger, foam, resolver }) {
 
 # Aula de ${title}
 
-===============
+
 
 ## O que entendi:
 - ...
