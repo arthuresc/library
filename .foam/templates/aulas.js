@@ -1,9 +1,13 @@
 async function createNote({ trigger, foam, resolver }) {
   const title = (await resolver.resolveFromName('FOAM_TITLE')) || 'nota';
   const today = dayjs();
+
   // Detect meeting type from title
   const isProjeto = title.toLowerCase().includes('projeto');
   const isAula = title.toLowerCase().includes('aula');
+
+  const regex = /\s*(?:aula|aulas|projeto|projetos)\s*/gi;
+  const titleTratado = title.toLowerCase().replace(regex, "");
 
   const nomeMateria = {
   pi:"PI",
@@ -12,24 +16,20 @@ async function createNote({ trigger, foam, resolver }) {
   ia:"Introdução à Inteligência Artificial",
   pesquisa:"EAD - Pesquisa, tecnologia e Sociedade",
   banco:"Banco de Dados para IA",
-  intro:"Introdução à Computação"}[title.toLowerCase()] || "nota";
+  intro:"Introdução à Computação"}[titleTratado] || "nota";
 
   const tituloNota = title.replace(/\bnota?\b/gi, "");
   
 
-  let template = `# ${title} - ${today.format('YYYY-MM-DD')}
-  
-
-`;
+  let template = ``;
+  let fileName = `${title} - ${today.format('DD-MM-YYYY')}`
 
   if (isProjeto) {
     template += 
 `
-----
-
 # Projeto de ${title}
 
-----
+===============
 
 ## O que precisa ser feito:
 - 
@@ -46,11 +46,10 @@ async function createNote({ trigger, foam, resolver }) {
 `;
   } else if (isAula) {
     template += `
-----
 
 # Aula de ${title}
 
-----
+===============
 
 ## O que entendi:
 - ...
@@ -90,6 +89,6 @@ async function createNote({ trigger, foam, resolver }) {
 
   return {
     content: template,
-    filepath: `/aulas/${nomeMateria}/${template}.md`,
+    filepath: `/aulas/${nomeMateria}/${fileName}.md`,
   };
 }
