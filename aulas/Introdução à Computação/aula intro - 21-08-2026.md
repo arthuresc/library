@@ -1,0 +1,55 @@
+# Aula de aula intro
+
+## Principal
+
+- Depois que eu defini os dados de entrada 
+- o peso da entrada é o valor que eu vou multiplicar a entrada
+- Não são todas as redes que tem o BIAS
+- [Epocas, Dataset, Rede Neural]
+- O que temos em uma rede neural:
+  - Entrada 
+  - Peso 
+  - BIAS 
+  - Saída 
+  - Camadas ocultas (cheias de neuronios) 
+  - Camada de entrada 
+  - Camada de saída
+  - Função de ativação
+  ### Multilayer Perceptron
+  - Os pesos da camada oculta são aleatórios
+  - 
+
+## O que entendi:
+
+- **Sigmoid**: A função sigmoide é uma fórmula matemática que transforma qualquer valor numérico em um número entre 0 e 1, se for 0,5>= é 0 e se for 0,5< é 1.
+- A saída não é o cliente (usuário)
+- A percepção de que o dado resultante da passagem pelas camadas ocultas somente é dado na saída
+- A rede neural precisa ter no minimo **97%** de acerto/precisão.
+- Epoca: é quantidade de vezes que você 
+- TAxa de aprendizagem: é quantidade de vezes
+
+## O que não entendi:
+
+- z-score
+- perceptron
+- perceptron multilayer
+- Isso se trata dos parametros de rede neural
+- Quem define os pesos?
+- O que são funções não lineares?
+- ~~O que sigmoid~~
+- Uma rede neural feedforward (FNN) é o tipo mais simples de rede neural artificial.
+- Back propagation
+- Aonde e quem é a saída?
+- No ajuste dos pesos você vai dizer qual será o lambda, o tanto que vai passar do peso
+
+## TODOs (tarefas):
+
+- [ ] ...
+
+## Glossário:
+
+- ...
+
+## Notas e Rascunhos:
+
+...
