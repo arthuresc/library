@@ -9,14 +9,17 @@ async function createNote({ trigger, foam, resolver }) {
   const regex = /\s*(?:aula|aulas|projeto|projetos)\s*/gi;
   const titleTratado = title.toLowerCase().replace(regex, "");
 
+  console.log("Teste")
+
   const nomeMateria = {
-  pi:"PI",
-  algoritmos:"Algoritmos e Programação para IA",
-  matematica:"Bases Matematicas para IA",
-  ia:"Introdução à Inteligência Artificial",
-  pesquisa:"EAD - Pesquisa, tecnologia e Sociedade",
-  banco:"Banco de Dados para IA",
-  intro:"Introdução à Computação"}[titleTratado] || "nota";
+  pesquisa:"EAD - Pesquisa, tecnologia e Sociedade",  // EAD - online
+  algoritmos:"Algoritmos e Programação para IA",      // Segunda-feira
+  intro:"Introdução à Computação",                    // Terça-feira 1/2
+  pi:"PI",                                            // Terça-feira 2/2
+  matematica:"Bases Matematicas para IA",             // Quarta-feira
+  banco:"Banco de Dados para IA",                     // Quinta-feira
+  ia:"Introdução à Inteligência Artificial"           // Sexta-feira
+}[titleTratado] || "nota";                            // Default
 
   const tituloNota = title.replace(/\bnota?\b/gi, "");
   
