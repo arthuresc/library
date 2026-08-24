@@ -33,6 +33,39 @@
   - O valor da chave imutavel
   - estrutura chave valor
   - Ex: `aluno = {"Nome": "Bob da Silva", "idade": 21}`
+- Funções: são blocos de código "armazenados" na memória
+  - Facilita a reutilização
+  - possui parametros
+  - a palavra chave `return` pode ser usado no final da função com o intuito de retornar um valor (geralmente gerado internamente na função) caso a função precise
+  - usa `def` o nome da função e `:` como definição alem da identação.
+  - ex: `def nomeFuncao(parametro1, parametro2):`
+  - usar o sinal de `=` no pametro de uma função que estou declarando vai gerar um valor padrão para aquele parametro
+  - Para fazer a verificação/garantir os tipos em funções é possivel
+    - ex: `def funcaoTipos(a: int, b: int | float) -> int|float:`
+- Operadores Algébricos/Matemáticos
+  - `+` : Soma
+  - `-` : Soma
+  - `+` : Soma
+  - `+` : Soma
+  - `+` : Soma
+  - `+` : Soma
+  - `+` : Soma
+  - `+` : Soma
+  - `+` : Soma
+  - `+` : Soma
+  - `+` : Soma
+  - `+` : Soma
+  - `+` : Soma
+  - `+` : Soma
+  - `+` : Soma
+- Operadores Booleanos
+  - `==` Igualdade
+  - `!=` Diferença
+  - `>` Maior
+  - `<` Menor
+  - `>=` Maior ou igual
+  - `<=` Menor ou igual
+- Operadores 
 
 ## O que entendi:
 
