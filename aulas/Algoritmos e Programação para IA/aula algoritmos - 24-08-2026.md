@@ -58,14 +58,18 @@
   - `+` : Soma
   - `+` : Soma
   - `+` : Soma
-- Operadores Booleanos
+- Operadores Booleanos (Binário)
   - `==` Igualdade
   - `!=` Diferença
   - `>` Maior
   - `<` Menor
   - `>=` Maior ou igual
   - `<=` Menor ou igual
-- Operadores 
+  - `and`
+  - `or`
+- Operadores Booleanos Unário
+  - not
+
 
 ## O que entendi:
 
