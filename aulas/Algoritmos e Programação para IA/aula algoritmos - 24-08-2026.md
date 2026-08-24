@@ -12,6 +12,10 @@
   - O código propriamente dito
   - Pseudocódigo para escrever a lógica da maneira mais proxima da lingua falada
   - Fluxograma para construir a lógica de maneira visual
+  - Estrutura de conjuntos:
+    - Listas: []
+    - Tuplas: ()
+    - Dicionario: {}
 - Listas:
   - são mutaveis
     - consigo alterar elementos
@@ -22,13 +26,13 @@
     - append() 
       - Adiciona ao final da lista o valor
     - remove()
-      - 
+      - Remove 1 paradinha da lista
 - Tuplas:
   - são imutaveis
 - Dicionarios
   - O valor da chave imutavel
   - estrutura chave valor
-  - 
+  - Ex: `aluno = {"Nome": "Bob da Silva", "idade": 21}`
 
 ## O que entendi:
 
@@ -48,5 +52,5 @@
 
 ## Notas e Rascunhos:
 
-- No python *string, list, tuples, int, float* são imutaveis
+- No python *string, list, tuples, dictionary, int, float* são imutaveis
 - 
