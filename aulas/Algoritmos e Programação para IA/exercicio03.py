@@ -2,14 +2,26 @@
 # Crie o programa Python. Siga as instruções à risca.
 # Entrega deve ser um arquivo “.py”
 # 1-Faça (em Python 3) a função chamada escreve_ola. Sem parâmetros e sem retorno. Deverá escrever “ola exercício 03” e terminar: (atenção se estou pedindo apenas a função deverá entregar a função, no caso de ser um exercício no computador faça a chamada do código para verificar se existe algum erro,# mas entregue só o que foi pedido).
+def escreve_ola():
+  print("ola exercício 03");
+
 
 # 2- Crie funções que resolvam as Expressões lógicas Crie para cada letra uma função que receba os valores booleanos (True ou False) e retorne o valor do resultado das expressões (deverá ser um booleano também).
 # a) A and B
+def logExp1(a, b):
+  return a and b;
 # b) A or B
+def logExp2(a, b):
+  return a or b;
 # c) not A
+def logExp3(a, b):
+  return not a, b;
 # d) B and C
+def logExp4(a, b, c):
+  return a ,b and c;
 # e) A or B and C
-
+def logExp5(a, b, c):
+  return a or b and c;
 
 # 3- Calculadora de operações
 # Crie as funções:
@@ -20,7 +32,23 @@
 # O programa deve solicitar dois números e utilizar as funções
 # para apresentar os quatro resultados. Crie pelo menos duas
 # chamadas de teste de cada função que está criando.
+def soma(a, b):
+  print("soma ", a + b)
+def subtracao(a, b):
+  print("subtracao ", a - b)
+def multiplicacao(a, b):
+  print("multiplicacao ", a * b)
+def divisao(a, b):
+  print("divisao ", a / b)
 
+soma(3, 4)
+soma(7, 9)
+subtracao(3, 4)
+subtracao(7, 9)
+multiplicacao(3, 4)
+multiplicacao(7, 9)
+divisao(3, 4)
+divisao(7, 9)
 
 # 4- Validação de dados
 # Crie uma função:
@@ -32,6 +60,13 @@
 # (operadores lógicos para devolver a resposta).
 # Crie pelo menos duas chamadas de teste para a função que
 # está criando.
+def validar_usuario(nome, idade):
+  result = len(nome) >= 3 and idade >= 18 and idade <= 100
+  print(result);
+  return result;
+
+validar_usuario("Arthur", 13);
+validar_usuario("Iã", 18);
 
 
 # 5 — Estatísticas de uma lista
