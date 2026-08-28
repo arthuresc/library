@@ -2,6 +2,7 @@
 # Crie o programa Python. Siga as instruções à risca.
 # Entrega deve ser um arquivo “.py”
 # 1-Faça (em Python 3) a função chamada escreve_ola. Sem parâmetros e sem retorno. Deverá escrever “ola exercício 03” e terminar: (atenção se estou pedindo apenas a função deverá entregar a função, no caso de ser um exercício no computador faça a chamada do código para verificar se existe algum erro,# mas entregue só o que foi pedido).
+
 def escreve_ola():
   print("ola exercício 03");
 
@@ -61,9 +62,9 @@ divisao(7, 9)
 # Crie pelo menos duas chamadas de teste para a função que
 # está criando.
 def validar_usuario(nome, idade):
-  result = len(nome) >= 3 and idade >= 18 and idade <= 100
-  print(result);
-  return result;
+  return len(nome) >= 3 and idade >= 18 and idade <= 100
+  # print(result);
+  # return result;
 
 validar_usuario("Arthur", 13);
 validar_usuario("Iã", 18);
@@ -73,20 +74,36 @@ validar_usuario("Iã", 18);
 # Crie uma lista contendo 10 números inteiros.
 # Utilize funções e operações sobre listas para apresentar:
 # A) Apresente a quantidade de elementos da lista.
+
+lista = [100,2,3,4,5,6,7,8,9,10];
+# elLista = lista[1]
+# lista[1]
+print(len(lista))
+nicolasCarvalho = "Nicolas Carvalho"
 # B)Apresente o maior valor.
+print(lista[9])
 # C)Apresente o menor valor.
+print(lista[0])
 # D) Apresente a soma dos valores.
+print(lista[0]+lista[1]+lista[2]+lista[3]+lista[4]+lista[5]+lista[6]+lista[7]+lista[8]+lista[9])
 # E) Apresente a média dos valores.
+print((lista[0]+lista[1]+lista[2]+lista[3]+lista[4]+lista[5]+lista[6]+lista[7]+lista[8]+lista[9])/len(lista))
 # F)Apresente o primeiro elemento utilizando o operador de
 # acesso por índice.
-# G) Apresente o último elemento utilizando o operador de
-# acesso por índice.
+print(lista[0])
+# G) Apresente o último elemento utilizando o operador de acesso por índice.
+print(lista[9])
 # H) Utilize slicing (:) para apresentar:
 # ● os três primeiros elementos;
 # ● os três últimos elementos;
 # ● os elementos que estão nas posições pares.
+print(lista[0:3]);
+print(lista[7:10]);
+
 # I) Atualize o valor de pelo menos dois elementos da lista
 # utilizando o operador de acesso por índice.
+
+
 # J) Utilize append() para adicionar dois novos números à
 # lista.
 # K)Utilize pop() para remover um elemento da lista.
