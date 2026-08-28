@@ -27,6 +27,7 @@
       - Adiciona ao final da lista o valor
     - remove()
       - Remove 1 paradinha da lista
+    - 
 - Tuplas:
   - são imutaveis
 - Dicionarios

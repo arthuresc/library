@@ -99,18 +99,31 @@ print(lista[9])
 # ● os elementos que estão nas posições pares.
 print(lista[0:3]);
 print(lista[7:10]);
+# AQUI VOU A TERCEIRA RESPOSTA
 
 # I) Atualize o valor de pelo menos dois elementos da lista
 # utilizando o operador de acesso por índice.
 
+lista[2] = 3;
+lista[6] = 31;
 
+print(lista)
 # J) Utilize append() para adicionar dois novos números à
 # lista.
+
+lista.append(11)
+lista.append(12)
+print(lista)
 # K)Utilize pop() para remover um elemento da lista.
+lista.pop(2)
+print(lista)
+
 # L)Ao final, apresente a lista resultante após todas as
 # operações.
 # Para fazer esses exercícios use somente as funções básicas já
 # incluídas nas listas.
+
+print(lista)
 
 
 # 6 — Cadastro de produto
@@ -123,6 +136,18 @@ print(lista[7:10]);
 # ● categoria.
 # Depois crie uma função que receba a tupla e calcule o valor
 # total do estoque (preço × quantidade)
+tupla = ("notebook", 3500.00, 10, "informática")
+print(tupla[0])
+print(tupla[1])
+print(tupla[2])
+print(tupla[3])
+def ganhe_tupla(coisinha):
+  valor = coisinha[1]
+  qtd = coisinha[2]
+  print(valor * qtd)
+  
+ganhe_tupla(tupla)
+  
 
 
 # 7 — Coordenadas
