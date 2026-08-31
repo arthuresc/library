@@ -69,6 +69,14 @@ i = 0
 for i in lista:
   print(i)
 ```
+
+- existe o `range()` que serve para criar um espaço
+``` py
+
+for i in lista:
+  i = i + 1
+  print(i)
+``` 
 ## O que entendi:
 
 - ...
