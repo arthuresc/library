@@ -12,7 +12,12 @@
   - Se (if) for um `else` ele realiza independemente o código dentro do bloco de texto do `else`
   - Se (if) for o `elif` ele receberá novos parametros e por sua vez se forem atendidas as suas condições entra no bloco de código
 ### Conjuntos ou Sets
-  - 
+  - É uma lista com elementos unicos
+  - Ele é a base de conjuntos
+  - `a.intersection(b)` `intersection()` e `&` são o metodo e o operador, respectivamente, de intersecção
+  - `a.union(b)` `union()` e `|` são o metodo e o operador, respectivamente, de união
+  - `list()` transformar um Set/Conjunto em uma Lista
+  - `set()` transforma uma Lista em Sets/Conjunto 
 - 
 ## O que entendi:
 
