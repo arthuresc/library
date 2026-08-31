@@ -280,6 +280,30 @@ print(viagem2)
 # 3. Calcular e apresentar o valor total em estoque,
 # considerando: preço × quantidade
 
+def dadosProduto(nome, cat, preco, qtd, cod):
+  produto = {
+    "nome": nome,
+    "categoria": cat,
+    "preco": preco,
+    "quantidade": qtd,
+    "codigo": cod,
+  }
+  
+  print(produto);
+  valor = list(produto.values());
+  chave = list(produto.keys());
+  
+  print(chave[0], ": ", valor[0]);
+  print(chave[1], ": ", valor[1]);
+  print(chave[2], ": ", valor[2]);
+  print(chave[3], ": ", valor[3]);
+  print(chave[4], ": ", valor[4]);
+   
+  print("Valor total em estoque deste produto é de: ", valor[2] * valor[3]);
+
+dadosProduto("Pinhão", "Comida", 2.50, 37676, "0987");
+  
+
 
 # 12- Sabendo que:
 # crie uma função area_circulo que recebe o diâmetro em cm e
@@ -288,3 +312,12 @@ print(viagem2)
 # raio. use ela na função anterior.
 # Crie pelo menos duas chamadas de teste para a função que
 # está criando.
+
+def area_circulo(diam):
+  area = 3.14 * (diam ** 2)
+  print("Area é de: ", area, "cm²")
+  return area
+
+area_circulo(23);
+area_circulo(34);
+
