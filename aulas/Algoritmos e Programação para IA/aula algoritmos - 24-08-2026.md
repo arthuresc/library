@@ -16,7 +16,7 @@
     - Listas: []
     - Tuplas: ()
     - Dicionario: {}
-- Listas:
+### Listas:
   - são mutaveis
     - consigo alterar elementos
     - adicionar elementos é possivel
