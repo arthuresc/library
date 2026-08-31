@@ -141,12 +141,12 @@ print(tupla[0])
 print(tupla[1])
 print(tupla[2])
 print(tupla[3])
-def ganhe_tupla(coisinha):
-  valor = coisinha[1]
-  qtd = coisinha[2]
+def totalEstoque(param):
+  valor = param[1]
+  qtd = param[2]
   print(valor * qtd)
   
-ganhe_tupla(tupla)
+totalEstoque(tupla)
   
 
 
@@ -158,6 +158,14 @@ ganhe_tupla(tupla)
 # Crie uma função que receba x, y e z e retorne a soma das
 # coordenadas.
 
+ponto = (10, 20, 30)
+
+x, y, z = ponto
+
+def funcaoQueRecebaXYZ(xis, ypsilon, ze):
+  return xis + ypsilon + ze;
+
+print(funcaoQueRecebaXYZ(x,y,z));
 
 # 8 — Cadastro de aluno
 # Crie um dicionário:
@@ -168,17 +176,38 @@ ganhe_tupla(tupla)
 #  "nota1": 8.0,
 #  "nota2": 7.5
 # }
+
+pedrin = {
+ "nome": "Pedrin",
+ "idade": 20,
+ "curso": "ADS",
+ "nota1": 8.0,
+ "nota2": 7.5
+}
+
+
 # A) O programa deve apresentar:
+
 # ● nome;
+print(pedrin["nome"])
 # ● idade;
+print(pedrin["idade"])
 # ● curso;
+print(pedrin["curso"])
 # ● notas;
+print("Nota 1: ", pedrin["nota1"])
+print("Nota 2: ", pedrin["nota2"])
 # ● média.
-# B)Crie uma função:
+print(pedrin["nota1"] + pedrin["nota2"]/2)# B)Crie uma função:
 # calcular_media(aluno)
 # que obtenha as notas diretamente do dicionário e retorne a
 # média (nota1 + nota2) / 2
+def calcular_media(estudante):
+  media = pedrin["nota1"] + pedrin["nota2"] / 2;
+  print(media);
+  return media
 
+calcular_media(pedrin)
 
 # 9- Conversão de temperatura
 # Crie duas funções:
@@ -191,7 +220,20 @@ ganhe_tupla(tupla)
 # O programa deve solicitar uma temperatura em Celsius e
 # outra em Fahrenheit e apresentar os respectivos resultados.
 
+def celsius_para_fahrenheit(celsius):
+  result = (celsius * 1.8) + 38;
+  print(result);
+  return result;
 
+
+def fahrenheit_para_celsius(fahrenheit):
+  result = (fahrenheit - 32) * 1.8;
+  print(result);
+  return result;
+
+celsius_para_fahrenheit(0);
+
+fahrenheit_para_celsius(48);
 
 # 10- Registro de uma viagem
 # Uma empresa de turismo deseja armazenar informações sobre
@@ -200,17 +242,25 @@ ganhe_tupla(tupla)
 # ● cidade de destino;
 # ● quantidade de dias;
 # ● meio de transporte;
-# ● valor da viagem.
+# ● valor da aviagem.
 # Exemplo:
 # viagem = ("Rio de Janeiro", 5, "Ônibus", 850.00)
+
+viagem = ("Maranhão", 7, "Trem", 35.00);
 # O programa deve:
 # A) apresentar a tupla completa;
+print(viagem);
 # B)apresentar a quantidade de elementos;
+print(len(viagem));
 # C)verificar se "Ônibus" está presente na tupla
 # utilizando o operador in;
+print("Ônibus" in viagem)
 # D) criar uma nova tupla acrescentando uma
 # informação sobre o tipo de hospedagem;
+viagem2 = ("Sapopemba", 28, "Mobilete", 3267.00, "Hotel 3 Estrelas");
 # E) apresentar a nova tupla.
+print(viagem2)
+
 
 
 # 11- Cadastro de produto
