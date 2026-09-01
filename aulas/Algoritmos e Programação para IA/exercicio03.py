@@ -4,7 +4,7 @@
 # 1-Faça (em Python 3) a função chamada escreve_ola. Sem parâmetros e sem retorno. Deverá escrever “ola exercício 03” e terminar: (atenção se estou pedindo apenas a função deverá entregar a função, no caso de ser um exercício no computador faça a chamada do código para verificar se existe algum erro,# mas entregue só o que foi pedido).
 
 def escreve_ola():
-  print("ola exercício 03");
+  print("Olá exercício 03");
 
 
 # 2- Crie funções que resolvam as Expressões lógicas Crie para cada letra uma função que receba os valores booleanos (True ou False) e retorne o valor do resultado das expressões (deverá ser um booleano também).
@@ -33,6 +33,7 @@ def logExp5(a, b, c):
 # O programa deve solicitar dois números e utilizar as funções
 # para apresentar os quatro resultados. Crie pelo menos duas
 # chamadas de teste de cada função que está criando.
+
 def soma(a, b):
   print("soma ", a + b)
 def subtracao(a, b):
@@ -99,7 +100,8 @@ print(lista[9])
 # ● os elementos que estão nas posições pares.
 print(lista[0:3]);
 print(lista[7:10]);
-# AQUI VOU A TERCEIRA RESPOSTA
+print(lista[1::2]);
+
 
 # I) Atualize o valor de pelo menos dois elementos da lista
 # utilizando o operador de acesso por índice.
@@ -162,10 +164,10 @@ ponto = (10, 20, 30)
 
 x, y, z = ponto
 
-def funcaoQueRecebaXYZ(xis, ypsilon, ze):
+def funcao_que_receba_xyz(xis, ypsilon, ze):
   return xis + ypsilon + ze;
 
-print(funcaoQueRecebaXYZ(x,y,z));
+print(funcao_que_receba_xyz(x,y,z));
 
 # 8 — Cadastro de aluno
 # Crie um dicionário:
@@ -177,8 +179,8 @@ print(funcaoQueRecebaXYZ(x,y,z));
 #  "nota2": 7.5
 # }
 
-pedrin = {
- "nome": "Pedrin",
+aluno = {
+ "nome": "Pedro Vasconcelos",
  "idade": 20,
  "curso": "ADS",
  "nota1": 8.0,
@@ -189,25 +191,25 @@ pedrin = {
 # A) O programa deve apresentar:
 
 # ● nome;
-print(pedrin["nome"])
+print(aluno["nome"])
 # ● idade;
-print(pedrin["idade"])
+print(aluno["idade"])
 # ● curso;
-print(pedrin["curso"])
+print(aluno["curso"])
 # ● notas;
-print("Nota 1: ", pedrin["nota1"])
-print("Nota 2: ", pedrin["nota2"])
+print("Nota 1: ", aluno["nota1"])
+print("Nota 2: ", aluno["nota2"])
 # ● média.
-print(pedrin["nota1"] + pedrin["nota2"]/2)# B)Crie uma função:
+print(aluno["nota1"] + aluno["nota2"]/2)# B)Crie uma função:
 # calcular_media(aluno)
 # que obtenha as notas diretamente do dicionário e retorne a
 # média (nota1 + nota2) / 2
 def calcular_media(estudante):
-  media = pedrin["nota1"] + pedrin["nota2"] / 2;
+  media = aluno["nota1"] + aluno["nota2"] / 2;
   print(media);
   return media
 
-calcular_media(pedrin)
+calcular_media(aluno)
 
 # 9- Conversão de temperatura
 # Crie duas funções:
@@ -313,11 +315,12 @@ dadosProduto("Pinhão", "Comida", 2.50, 37676, "0987");
 # Crie pelo menos duas chamadas de teste para a função que
 # está criando.
 
-def area_circulo(diam):
-  area = 3.14 * (diam ** 2)
+def area_circulo(diametro):
+  raio = diametro ** 2
+  area = 3.14 * raio
   print("Area é de: ", area, "cm²")
   return area
 
-area_circulo(23);
-area_circulo(34);
+area_circulo(12);
+area_circulo(5);
 
