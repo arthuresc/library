@@ -53,3 +53,8 @@
 
 ps:
 - Com o advento de gps usando IoT é possivel ainda mais confirmar os dados trazidos pelo catador
+
+Slides:
+- 1 Beneficio
+- 1 Limitação
+- 1 Exemplo

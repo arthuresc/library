@@ -4,7 +4,7 @@
 # 1-Faça (em Python 3) a função chamada escreve_ola. Sem parâmetros e sem retorno. Deverá escrever “ola exercício 03” e terminar: (atenção se estou pedindo apenas a função deverá entregar a função, no caso de ser um exercício no computador faça a chamada do código para verificar se existe algum erro,# mas entregue só o que foi pedido).
 
 def escreve_ola():
-  print("ola exercício 03");
+  print("Olá exercício 03");
 
 
 # 2- Crie funções que resolvam as Expressões lógicas Crie para cada letra uma função que receba os valores booleanos (True ou False) e retorne o valor do resultado das expressões (deverá ser um booleano também).
@@ -33,6 +33,7 @@ def logExp5(a, b, c):
 # O programa deve solicitar dois números e utilizar as funções
 # para apresentar os quatro resultados. Crie pelo menos duas
 # chamadas de teste de cada função que está criando.
+
 def soma(a, b):
   print("soma ", a + b)
 def subtracao(a, b):
@@ -99,7 +100,8 @@ print(lista[9])
 # ● os elementos que estão nas posições pares.
 print(lista[0:3]);
 print(lista[7:10]);
-# AQUI VOU A TERCEIRA RESPOSTA
+print(lista[1::2]);
+
 
 # I) Atualize o valor de pelo menos dois elementos da lista
 # utilizando o operador de acesso por índice.
@@ -141,12 +143,12 @@ print(tupla[0])
 print(tupla[1])
 print(tupla[2])
 print(tupla[3])
-def ganhe_tupla(coisinha):
-  valor = coisinha[1]
-  qtd = coisinha[2]
+def totalEstoque(param):
+  valor = param[1]
+  qtd = param[2]
   print(valor * qtd)
   
-ganhe_tupla(tupla)
+totalEstoque(tupla)
   
 
 
@@ -158,6 +160,14 @@ ganhe_tupla(tupla)
 # Crie uma função que receba x, y e z e retorne a soma das
 # coordenadas.
 
+ponto = (10, 20, 30)
+
+x, y, z = ponto
+
+def funcao_que_receba_xyz(xis, ypsilon, ze):
+  return xis + ypsilon + ze;
+
+print(funcao_que_receba_xyz(x,y,z));
 
 # 8 — Cadastro de aluno
 # Crie um dicionário:
@@ -168,17 +178,38 @@ ganhe_tupla(tupla)
 #  "nota1": 8.0,
 #  "nota2": 7.5
 # }
+
+aluno = {
+ "nome": "Pedro Vasconcelos",
+ "idade": 20,
+ "curso": "ADS",
+ "nota1": 8.0,
+ "nota2": 7.5
+}
+
+
 # A) O programa deve apresentar:
+
 # ● nome;
+print(aluno["nome"])
 # ● idade;
+print(aluno["idade"])
 # ● curso;
+print(aluno["curso"])
 # ● notas;
+print("Nota 1: ", aluno["nota1"])
+print("Nota 2: ", aluno["nota2"])
 # ● média.
-# B)Crie uma função:
+print(aluno["nota1"] + aluno["nota2"]/2)# B)Crie uma função:
 # calcular_media(aluno)
 # que obtenha as notas diretamente do dicionário e retorne a
 # média (nota1 + nota2) / 2
+def calcular_media(estudante):
+  media = aluno["nota1"] + aluno["nota2"] / 2;
+  print(media);
+  return media
 
+calcular_media(aluno)
 
 # 9- Conversão de temperatura
 # Crie duas funções:
@@ -191,7 +222,20 @@ ganhe_tupla(tupla)
 # O programa deve solicitar uma temperatura em Celsius e
 # outra em Fahrenheit e apresentar os respectivos resultados.
 
+def celsius_para_fahrenheit(celsius):
+  result = (celsius * 1.8) + 38;
+  print(result);
+  return result;
 
+
+def fahrenheit_para_celsius(fahrenheit):
+  result = (fahrenheit - 32) * 1.8;
+  print(result);
+  return result;
+
+celsius_para_fahrenheit(0);
+
+fahrenheit_para_celsius(48);
 
 # 10- Registro de uma viagem
 # Uma empresa de turismo deseja armazenar informações sobre
@@ -200,17 +244,25 @@ ganhe_tupla(tupla)
 # ● cidade de destino;
 # ● quantidade de dias;
 # ● meio de transporte;
-# ● valor da viagem.
+# ● valor da aviagem.
 # Exemplo:
 # viagem = ("Rio de Janeiro", 5, "Ônibus", 850.00)
+
+viagem = ("Maranhão", 7, "Trem", 35.00);
 # O programa deve:
 # A) apresentar a tupla completa;
+print(viagem);
 # B)apresentar a quantidade de elementos;
+print(len(viagem));
 # C)verificar se "Ônibus" está presente na tupla
 # utilizando o operador in;
+print("Ônibus" in viagem)
 # D) criar uma nova tupla acrescentando uma
 # informação sobre o tipo de hospedagem;
+viagem2 = ("Sapopemba", 28, "Mobilete", 3267.00, "Hotel 3 Estrelas");
 # E) apresentar a nova tupla.
+print(viagem2)
+
 
 
 # 11- Cadastro de produto
@@ -230,6 +282,30 @@ ganhe_tupla(tupla)
 # 3. Calcular e apresentar o valor total em estoque,
 # considerando: preço × quantidade
 
+def dadosProduto(nome, cat, preco, qtd, cod):
+  produto = {
+    "nome": nome,
+    "categoria": cat,
+    "preco": preco,
+    "quantidade": qtd,
+    "codigo": cod,
+  }
+  
+  print(produto);
+  valor = list(produto.values());
+  chave = list(produto.keys());
+  
+  print(chave[0], ": ", valor[0]);
+  print(chave[1], ": ", valor[1]);
+  print(chave[2], ": ", valor[2]);
+  print(chave[3], ": ", valor[3]);
+  print(chave[4], ": ", valor[4]);
+   
+  print("Valor total em estoque deste produto é de: ", valor[2] * valor[3]);
+
+dadosProduto("Pinhão", "Comida", 2.50, 37676, "0987");
+  
+
 
 # 12- Sabendo que:
 # crie uma função area_circulo que recebe o diâmetro em cm e
@@ -238,3 +314,13 @@ ganhe_tupla(tupla)
 # raio. use ela na função anterior.
 # Crie pelo menos duas chamadas de teste para a função que
 # está criando.
+
+def area_circulo(diametro):
+  raio = diametro ** 2
+  area = 3.14 * raio
+  print("Area é de: ", area, "cm²")
+  return area
+
+area_circulo(12);
+area_circulo(5);
+
