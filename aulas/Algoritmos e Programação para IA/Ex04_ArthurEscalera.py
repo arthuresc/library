@@ -134,3 +134,40 @@ def valida_z():
 # ESCREVA "O número é ÍMPAR"
 # FIMSE
 # FIM
+# Usando como referência o Pseudo-código implemente: 
+# a) o Fluxograma equivalente (use o draw.io) 
+# b) Uma função chamada eh_par em Python 
+def eh_par():
+  numero = input("Digite um número inteiro: ") 
+  if numero ** 2 == 0:
+    print("O número é PAR")
+  else:
+    print("O número é IMPAR")
+    
+eh_par()    
+    
+# 8)Veja o Pseudo-código abaixo: 
+# INÍCIO 
+# ESCREVA "Digite a nota do aluno:" 
+# LEIA nota 
+# ESCREVA "Digite a frequência do aluno (%):" 
+# LEIA frequencia 
+# SE (nota >= 7 E frequencia >= 75) ENTÃO 
+# ESCREVA "Aluno APROVADO" 
+# SENÃO 
+# ESCREVA "Aluno REPROVADO" 
+# FIMSE 
+# FIM 
+# Usando como referência o Pseudo-código implemente: 
+# a) o Fluxograma equivalente (use o draw.io) 
+# b) Uma função chamada esta_aprovado em Python
+
+def esta_aprovado():
+  nota = input("Digite a nota do aluno: ")
+  frequencia = input("Digite a frequência do aluno (%): ")
+  
+  if nota >= 7 and frequencia >= 75:
+    print("Aluno APROVADO")
+  else:
+    print("Aluno REPROVADO")
+esta_aprovado()
