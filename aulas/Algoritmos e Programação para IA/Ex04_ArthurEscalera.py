@@ -14,13 +14,19 @@ def soliciteIdade(pIdade):
   idade = pIdade
   if idade < 12:
     print("Criança")
-  if idade <= 12 or :
-    print("Criança")
-  if idade < 12:
-    print("Criança")
-  if idade < 12:
-    print("Criança")
-  
-  
-  
+  if idade >= 12 and idade <= 17:
+    print("Adolescente")
+  if idade >= 18 and idade <= 59:
+    print("Adulto")
+  if idade >= 60:
+    print("Idoso")
+    
+
 soliciteIdade(78)
+
+# 2) Função chamada retorna_maior
+# Essa função deverá receber 2 números inteiros e voltar o valor
+# do maior valor.
+# Exemplo:
+# print(retorna_maior(3, 4)) # 4
+# print(retorna_maior(8, 5)) # 8
