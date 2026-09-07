@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="bo68-bb12DYG29A1QrRO">
+    <mxGraphModel dx="806" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Zfbz4QSmHqq5QULjdf3X-3" edge="1" parent="1" source="Zfbz4QSmHqq5QULjdf3X-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="Zfbz4QSmHqq5QULjdf3X-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zfbz4QSmHqq5QULjdf3X-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Inicio" vertex="1">
+          <mxGeometry height="80" width="120" x="294" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kcPupn5hZgaYXZo34Glh-2" edge="1" parent="1" source="Zfbz4QSmHqq5QULjdf3X-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kcPupn5hZgaYXZo34Glh-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zfbz4QSmHqq5QULjdf3X-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Escreva &quot;Digite um numero inteiro&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kcPupn5hZgaYXZo34Glh-4" edge="1" parent="1" source="kcPupn5hZgaYXZo34Glh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kcPupn5hZgaYXZo34Glh-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kcPupn5hZgaYXZo34Glh-1" parent="1" style="whiteSpace=wrap;html=1;" value="numero" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="kcPupn5hZgaYXZo34Glh-7" edge="1" parent="1" source="kcPupn5hZgaYXZo34Glh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kcPupn5hZgaYXZo34Glh-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kcPupn5hZgaYXZo34Glh-8" connectable="0" parent="kcPupn5hZgaYXZo34Glh-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="-0.12" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcPupn5hZgaYXZo34Glh-10" connectable="0" parent="kcPupn5hZgaYXZo34Glh-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Verdadeiro" vertex="1">
+          <mxGeometry relative="1" x="-0.136" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcPupn5hZgaYXZo34Glh-12" edge="1" parent="1" source="kcPupn5hZgaYXZo34Glh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kcPupn5hZgaYXZo34Glh-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kcPupn5hZgaYXZo34Glh-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="se numero MOD 2 = 0" vertex="1">
+          <mxGeometry height="150" width="150" x="279" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="kcPupn5hZgaYXZo34Glh-20" edge="1" parent="1" source="kcPupn5hZgaYXZo34Glh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kcPupn5hZgaYXZo34Glh-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kcPupn5hZgaYXZo34Glh-6" parent="1" style="whiteSpace=wrap;html=1;" value="Escreva &quot;O número é PAR&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="kcPupn5hZgaYXZo34Glh-13" edge="1" parent="1" source="kcPupn5hZgaYXZo34Glh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kcPupn5hZgaYXZo34Glh-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kcPupn5hZgaYXZo34Glh-14" connectable="0" parent="kcPupn5hZgaYXZo34Glh-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Falso" vertex="1">
+          <mxGeometry relative="1" x="-0.0316" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcPupn5hZgaYXZo34Glh-19" edge="1" parent="1" source="kcPupn5hZgaYXZo34Glh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kcPupn5hZgaYXZo34Glh-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kcPupn5hZgaYXZo34Glh-11" parent="1" style="whiteSpace=wrap;html=1;" value="Escreva &quot;O número é IMPAR&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="524" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="kcPupn5hZgaYXZo34Glh-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="FIM&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="540" y="680" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

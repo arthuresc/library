@@ -83,8 +83,24 @@ for i in lista:
 
 ## O que não entendi:
 
-- ...
+- Os fluxogramas, material de apoio:
+  - https://www.pipefy.com/pt-br/blog/simbolos-de-fluxograma/
 
+```ai
+Os símbolos de fluxograma lógico são utilizados para representar processos e etapas de forma visual. Aqui estão alguns dos símbolos mais comuns:
+Seta: Indica a direção do fluxo do processo. 
+
+Processo: Representa uma ação ou função específica. 
+
+Losango: Indica uma escolha ou decisão, geralmente com opções de sim/não. 
+
+Oval: Representa o início ou fim de um processo. 
+
+Paralelogramo: Indica entrada ou saída de dados. 
+
+
+Esses símbolos ajudam a visualizar e entender melhor os processos e fluxos de trabalho. Para mais detalhes sobre cada símbolo, você pode consultar as fontes mencionadas.
+```
 ## TODOs (tarefas):
 
 - [ ] ...
