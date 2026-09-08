@@ -1,1 +1,69 @@
-<mxGraphModel><root><mxCell id="0"/><mxCell id="1" parent="0"/></root></mxGraphModel>
+<mxfile host="app.diagrams.net">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Página-1">
+    <mxGraphModel dx="1569" dy="1504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="n7R2joGSWmAWIydx6c7l-3" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n7R2joGSWmAWIydx6c7l-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n7R2joGSWmAWIydx6c7l-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n7R2joGSWmAWIydx6c7l-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="INICIO" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n7R2joGSWmAWIydx6c7l-5" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n7R2joGSWmAWIydx6c7l-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n7R2joGSWmAWIydx6c7l-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n7R2joGSWmAWIydx6c7l-2" parent="WIyWlLk6GJQsqaUBKTNV-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="ESCREVA &quot;Digite a nota do aluno: &quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="n7R2joGSWmAWIydx6c7l-7" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n7R2joGSWmAWIydx6c7l-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n7R2joGSWmAWIydx6c7l-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n7R2joGSWmAWIydx6c7l-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="whiteSpace=wrap;html=1;" value="LEIA nota" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="n7R2joGSWmAWIydx6c7l-9" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n7R2joGSWmAWIydx6c7l-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n7R2joGSWmAWIydx6c7l-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n7R2joGSWmAWIydx6c7l-6" parent="WIyWlLk6GJQsqaUBKTNV-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="ESCREVA &quot;Digite a frequencia do aluno (%): &quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="n7R2joGSWmAWIydx6c7l-11" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n7R2joGSWmAWIydx6c7l-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n7R2joGSWmAWIydx6c7l-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n7R2joGSWmAWIydx6c7l-8" parent="WIyWlLk6GJQsqaUBKTNV-1" style="whiteSpace=wrap;html=1;" value="LEIA frequencia" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="n7R2joGSWmAWIydx6c7l-13" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n7R2joGSWmAWIydx6c7l-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n7R2joGSWmAWIydx6c7l-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n7R2joGSWmAWIydx6c7l-14" connectable="0" parent="n7R2joGSWmAWIydx6c7l-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;Verdadeiro&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1753" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n7R2joGSWmAWIydx6c7l-16" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n7R2joGSWmAWIydx6c7l-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n7R2joGSWmAWIydx6c7l-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n7R2joGSWmAWIydx6c7l-10" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="nota &amp;gt;= 7 E frequencia &amp;gt;= 75" vertex="1">
+          <mxGeometry height="130" width="160" x="340" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="n7R2joGSWmAWIydx6c7l-19" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n7R2joGSWmAWIydx6c7l-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n7R2joGSWmAWIydx6c7l-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n7R2joGSWmAWIydx6c7l-12" parent="WIyWlLk6GJQsqaUBKTNV-1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;ESCREVA &quot;Aluno APROVADO&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="n7R2joGSWmAWIydx6c7l-18" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n7R2joGSWmAWIydx6c7l-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n7R2joGSWmAWIydx6c7l-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n7R2joGSWmAWIydx6c7l-15" parent="WIyWlLk6GJQsqaUBKTNV-1" style="whiteSpace=wrap;html=1;" value="ESCREVA &quot;Aluno REPROVADO&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="962" as="geometry" />
+        </mxCell>
+        <mxCell id="n7R2joGSWmAWIydx6c7l-17" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="FIM&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="380" y="1010" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
