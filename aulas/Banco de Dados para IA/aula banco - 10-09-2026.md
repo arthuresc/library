@@ -22,8 +22,9 @@
 
 - **NAS RELAÇÕES**
   - Muitos para Muitos serão sempre 3 tabelas (no minimo)
-    - Uma tabela de relação, o nome da tabela é: Tabela Relacional
+    - Uma tabela de relação, o nome da tabela é: Tabela Assossiativa
   - 1 para Muitos serão 2 tabelas só
+  - Existem relações de 0 para muitos, aonde não há a necessidade de existir 1 registro (podendo assim haver 0 registros) ou muitos.
 
 ## O que não entendi:
 
