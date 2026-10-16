@@ -10,7 +10,6 @@
 
 ```SQL
 
-
 -- Cria uma tabela chamada greetings
 
 -- CREATE TABLE greetings (
