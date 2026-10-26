@@ -4,6 +4,7 @@ import random
 from datetime import datetime
 import random
 import string
+from typing import Literal
 
 class BibliotecaStorage:
   def __init__(self):
@@ -75,12 +76,12 @@ class AuxMixin:
       raise ValueError
     
   def gerarMatricula(self):
-    data = datetime.strftime('%d/%m/%Y')
-    dataEdit = datetime.strftime('%d%m-%Y')
+    data = datetime.now()
+    dataEdit = data.strftime('%d%m-%Y')
     numero = random.randint(000000, 999999)
-    letra = string.ascii_letters[random.randint(0,9)]
-    return f"{letra}{numero}{dataEdit}"
-      
+    letra = string.ascii_uppercase[random.randint(0,26)]
+    result = f"{letra}{numero}{dataEdit}"
+    return result
       
       #lançar a exception correta e alterada para dizer que está errado o padrão
         
@@ -99,7 +100,7 @@ class Pessoa(AuxMixin):
     self.__telefone = self.validar(self._padrao["telefone"], telefone)
     
   def exibir_dados(self):
-    print(f"Olá {self.__nome},\nseu [[aula banco - 22-10-2026]] é {self.__email}, nascido em {self.__data_nascimento}\nResidente do endereço: {self.__endereco} \nTelefone: {self.__telefone}")
+    print(f"Olá {self.__nome},\nseu {self.__cpf} e seu email é {self.__email}, nascido em {self.__data_nascimento}\nResidente do endereço: {self.__endereco} \nTelefone: {self.__telefone}")
   
   def fazer_aniversario():
     print(f"Feliz aniversário, se hoje for o dia {self.__data_nascimento}")
@@ -125,17 +126,30 @@ class Pessoa(AuxMixin):
 arthur = Pessoa("Arthur", "42351460847", "arthur@gmail.com", "21/05/1992", "Rua La Sei eu, 32", "11976548765")
 
 arthur.exibir_dados()
+
+class StatusUsuario(enumerate):
+  ATIVO = "ATIVO"
+  SUSPENSO = "SUSPENSO"
+  BLOQUEADO = "BLOQUEADO"
   
+    
 
 class Usuario(Pessoa):
-  def __init__(self, nome: str, cpf: str, email: str, data_nascimento: str, endereco: str, telefone: str):
+  def __init__(self, nome: str, cpf: str, email: str, data_nascimento: str, endereco: str, telefone: str, livros_emprestados: [Livro] , historico_emprestimos:[dict], multa:float, status:str):
 
     
     super().__init__(nome, cpf, email, data_nascimento, endereco, telefone)
     
-    self.matricula = self.gerarMatricula()
+    self.__matricula = self.gerarMatricula()
+    self.__livros_emprestados = livros_emprestados #lista de objetos Livro
+    self.__historico_emprestimos = historico_emprestimos #lista de dicionarios {data_emprestimo, data_devolucao, livro}
+    self.__multa = multa
+    self.__status = getattr(StatusUsuario, f"{status}", "ATIVO")
+    
+  def pegar_livro_emprestado(livro:Livro, funcionario):
+    if len(self.__livros_emprestados) >= 3:
 
 
-b = Usuario("Arthur", "42351460847", "arthur@gmail.com", "21/05/1992", "Rua La Sei eu, 32", "11976548765")
 
-print(b.matricula)
+b = Usuario("Arthur", "42351460847", "arthur@gmail.com", "21/05/1992", "Rua La Sei eu, 32", "11976548765", [], [], 3.90, 3)
+b.printStatus()
