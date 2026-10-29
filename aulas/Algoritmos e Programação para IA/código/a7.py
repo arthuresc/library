@@ -154,7 +154,7 @@ class Usuario(Pessoa):
     
     super().__init__(nome, cpf, email, data_nascimento, endereco, telefone)
     
-    self.__matricula = self.[[aula banco - 29-10-2026]]Matricula()
+    self.__matricula = self.gerarMatricula()
     self.__livros_emprestados = livros_emprestados #lista de objetos Livro
     self.__historico_emprestimos = historico_emprestimos #lista de dicionarios {data_emprestimo, data_devolucao, livro}
     self.__multa = multa
@@ -167,7 +167,7 @@ class Usuario(Pessoa):
   
   @status.setter
   def status(self, value):
-    self.__status = getattr(StatusUsuario, f"{status}", "ATIVO")
+    self.__status = getattr(StatusUsuario, f"{value}", "ATIVO")
   
   
   @property
@@ -249,6 +249,26 @@ class Usuario(Pessoa):
   def calcular_gasto_total():
     pass
 
+class Cargo(enumerate):
+  ATENDENTE
+  BIBLIOTECARIO
+  SUPERVISOR
+  GERENTE
+
+class Turno(enumerate):
+  MATUTINO
+  VESPERTINO
+  NOTURNO
+
+class Funcionario(Pessoa):
+  def __init__(self, cargo, salario, data_admissao = datetime.now()):
+    super().__init__()
+    
+    self.__matricula_funcionario = self.gerarMatricula()
+    self.__cargo = getattr(StatusUsuario, f"{cargo}")
+    self.__salario = salario
+    self.__data_admissao = data_admissao
+    self.__senha 
 
 
 
