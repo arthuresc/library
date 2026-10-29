@@ -1,7 +1,7 @@
 import re
 import datetime
 import random
-from datetime import datetime
+# from datetime import datetime
 import random
 import string
 from typing import Literal
@@ -133,21 +133,122 @@ class StatusUsuario(enumerate):
   BLOQUEADO = "BLOQUEADO"
   
     
+class LivroHistorico:
+  def __init__(self, livro):
+    self.__nome = livro.nome
+    self.__isbn = livro.isbn
+    self.__dataEmprestimo = datetime.now()
+    self.__dataDevolução = None
+    
+  @property
+  def data_devolucao(self):
+    return self.__dataDevolução
 
+  @data_devolucao.setter
+  def data_devolucao(self):
+    self.__dataDevolução = datetime.now()
+  
 class Usuario(Pessoa):
   def __init__(self, nome: str, cpf: str, email: str, data_nascimento: str, endereco: str, telefone: str, livros_emprestados: [Livro] , historico_emprestimos:[dict], multa:float, status:str):
 
     
     super().__init__(nome, cpf, email, data_nascimento, endereco, telefone)
     
-    self.__matricula = self.gerarMatricula()
+    self.__matricula = self.[[aula banco - 29-10-2026]]Matricula()
     self.__livros_emprestados = livros_emprestados #lista de objetos Livro
     self.__historico_emprestimos = historico_emprestimos #lista de dicionarios {data_emprestimo, data_devolucao, livro}
     self.__multa = multa
     self.__status = getattr(StatusUsuario, f"{status}", "ATIVO")
-    
+  
+  
+  @property
+  def status(self):
+    return self.__status
+  
+  @status.setter
+  def status(self, value):
+    self.__status = getattr(StatusUsuario, f"{status}", "ATIVO")
+  
+  
+  @property
+  def livros_emprestados(self):
+    return self.__titular
+  
+  @livros_emprestados.setter
+  def livros_emprestados(self, value):
+    self.__livros_emprestados.append(value)
+    return self.__livros_emprestados
+
   def pegar_livro_emprestado(livro:Livro, funcionario):
-    if len(self.__livros_emprestados) >= 3:
+    if len(self.__livros_emprestados) > 3:
+      raise Exception("Você não poder estar com mais de 3 livros emprestados")
+    else:
+      #//TODO implementar função emprestar
+      livro.emprestar(self, funcionario)
+      # 
+      # adiciona ao histórico
+      self.__livros_emprestados = livro
+  
+  def devolver_livro(self, livro):
+    for i in self.__livros_emprestados:
+      if i.isbn == livro.isbn:
+        if not livro.disponivel:
+          self.remover_historico(livro)
+          livro.devolver()
+        else:
+          raise Exception("Este livro não deve ser devolvido")
+    
+    
+  def remover_historico(self, livro):
+    for l in self.__livros_emprestados:
+      if l.isbn == livro.isbn:
+        for livro_registrado in self.__historico_emprestimos:
+          if livro_registrado == livro.isbn:
+            self.__historico_emprestimos.remove(livro_registrado)
+            
+  # devolver o livro: remove da lista de livros emprestados, marca o livro como não emprestado, 
+  def devolver_livro(self, livro):
+    for l in self.__livros_emprestados:
+      if l.isbn == livro.isbn:
+        self.remover_historico(livro)
+        livro.disponivel = true
+  
+  
+  # Sempre retorna a diferença de valores pagos
+  def pagar_multa(self, valor:float):
+    if valor > self.__multa:
+      troco = valor - self.__multa
+      self.__multa = 0
+      print(f"O pagamento da multa foi feito, receba R${troco} de troco.")
+      return troco
+    elif valor < self.__multa:
+      saldo_devedor = self.__multa - valor
+      self.__multa = saldo_devedor      
+      print(f"O pagamento parcial da multa foi feito, lhe restando uma divida de R${saldo_devedor}")
+      return saldo_devedor
+    else:
+      print(f"Tamo quite, ta tudo certo.")
+      self.__multa = 0
+      return self.__multa
+    
+  
+  def consultar_historico(self):
+    for i in self.__historico_emprestimos:
+      print(f"Livro emprestado {i}\n")
+      
+  def verificar_status(self):
+    if self.status != "ATIVO":
+      print(f"Você não esta com o status ATIVO")
+      return False
+      if self.__multa > 50:
+        print(f"Você esta devendo acima do permitido")
+        return False
+      else:
+        return True
+  
+  def calcular_gasto_total():
+    pass
+
 
 
 
