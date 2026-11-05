@@ -4,6 +4,7 @@ import random
 # from datetime import datetime
 import random
 import string
+from cryptography.fernet import Fernet
 from typing import Literal
 
 class BibliotecaStorage:
@@ -261,16 +262,58 @@ class Turno(enumerate):
   NOTURNO
 
 class Funcionario(Pessoa):
-  def __init__(self, cargo, salario, data_admissao = datetime.now()):
+  def __init__(self, cargo, salario, senha, turno, data_admissao = datetime.now()):
     super().__init__()
     
     self.__matricula_funcionario = self.gerarMatricula()
-    self.__cargo = getattr(StatusUsuario, f"{cargo}")
+    self.__cargo = getattr(Cargo, f"{cargo}", ATENDENTE)
     self.__salario = salario
     self.__data_admissao = data_admissao
-    self.__senha 
+    self.__senha = senha
+    self.__turno = getattr(Turno, turno)
+    self.__emprestimos_realizados = 0
+    
+
+  
+  
 
 
+class ATENDENTE:
+  
+  def registrar_emprestimo(self,usuario,livro):
+    pass    
+    
+  def registrar_devolucao(self,usuario,livro):
+    pass
+
+  def consultar_usuario(self, cpf:string):
+    pass
+    
+class BIBLIOTECARIO(ATENDENTE):
+  
+  def gerar_relatorio(self):
+    pass
+    
+class SUPERVISOR(BIBLIOTECARIO):
+  
+  def bloquear_usuario(self, usuario, motivo:string):
+    pass
+    
+    
+class GERENTE(SUPERVISOR):
+  
+  def desbloquear_usuario(self, usuario):
+    pass
+  
+  def calcular_salario_anual(self):
+    pass
+  
+  def autenticar(self, senha:string):
+    pass
+  
+      
+  
+  
 
 b = Usuario("Arthur", "42351460847", "arthur@gmail.com", "21/05/1992", "Rua La Sei eu, 32", "11976548765", [], [], 3.90, 3)
 b.printStatus()
