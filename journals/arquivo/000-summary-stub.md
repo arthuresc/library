@@ -1,3 +1,9 @@
+---
+title: "Wiki"
+type: arquivo
+tags: [arquivo]
+status: arquivado
+---
 # Wiki
 
 [Linux]

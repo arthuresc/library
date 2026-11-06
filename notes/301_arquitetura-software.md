@@ -1,3 +1,9 @@
+---
+title: "Arquitetura de software"
+type: evergreen
+tags: [evergreen, area/fundamentos]
+status: ativo
+---
 # Arquitetura de software
 
 ## Padrões

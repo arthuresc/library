@@ -1,3 +1,10 @@
+---
+title: "Aula de matematica aula"
+type: aula
+tags: [aula, disciplina/bases-matematicas-para-ia]
+status: registrado
+date: 2026-08-19
+---
 # Aula de matematica aula
 
 ## Principal

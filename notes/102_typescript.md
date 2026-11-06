@@ -1,3 +1,9 @@
+---
+title: "Typescript"
+type: evergreen
+tags: [evergreen, area/linguagem]
+status: ativo
+---
 # Typescript
 
 Apesar de parecido com (e transpilado para) o javascript, o TS (typescript) veio para solucionar os problemas que seu irmão mais velho possui já que é tipado e possui como ser aplicado completamente OOP.

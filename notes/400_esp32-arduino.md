@@ -1,3 +1,9 @@
+---
+title: "ESP32 usando o framework do Arduino"
+type: evergreen
+tags: [evergreen, area/embarcado]
+status: ativo
+---
 #Esp32 usando o framework do Arduino
 
 ## Leituras básicas

@@ -1,3 +1,9 @@
+---
+title: "Configurações e soluções de problemas KDE"
+type: evergreen
+tags: [evergreen, area/ambiente]
+status: ativo
+---
 # Configurações e soluções de problemas KDE
 
 ## KWIN + Latte Dock

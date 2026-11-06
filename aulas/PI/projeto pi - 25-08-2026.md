@@ -1,3 +1,10 @@
+---
+title: "Projeto de projeto pi"
+type: aula
+tags: [aula, disciplina/pi]
+status: registrado
+date: 2026-08-25
+---
 # Projeto de projeto pi
 
 ## O que precisa ser feito:

@@ -1,3 +1,8 @@
+---
+title: "plantas"
+type: journal
+tags: [journal]
+---
     0 (Nitrogênio - N): O primeiro número ser ZERO indica que este fertilizante não contém Nitrogênio (ou contém uma quantidade insignificante). O Nitrogênio é essencial para o crescimento de folhas e caules (fase vegetativa), mas em excesso durante a floração atrapalha a formação de flores e frutos.
 
     5 (Fósforo - P): O Fósforo é crucial para o desenvolvimento das raízes e, principalmente, para a formação e o crescimento das flores e frutos. Ele estimula a floração abundante.

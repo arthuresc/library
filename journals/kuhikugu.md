@@ -1,3 +1,8 @@
+---
+title: "kuhikugu.md"
+type: journal
+tags: [journal]
+---
 # kuhikugu.md
 ## Conhecimentos
 - Fontes Humanistas ou Neo-Grotescas

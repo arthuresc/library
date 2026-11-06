@@ -1,3 +1,9 @@
+---
+title: "algoritimos"
+type: evergreen
+tags: [evergreen, area/fundamentos]
+status: ativo
+---
 https://www.geeksforgeeks.org/binary-search-in-javascript/
 
 https://www.geeksforgeeks.org/binary-search/?ref=leftbar-rightbar

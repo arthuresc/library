@@ -1,3 +1,8 @@
+---
+title: "origamid react"
+type: journal
+tags: [journal]
+---
 Objeto para renderizar:
 - ReactDOM
   - ReactDOM.render()

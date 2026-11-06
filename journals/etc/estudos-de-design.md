@@ -1,3 +1,8 @@
+---
+title: "estudos de design"
+type: journal
+tags: [journal]
+---
 A tabela abaixo resume os principais subgrupos das fontes sans-serif para ajudá-lo a refinar sua busca de acordo com a "voz" da sua marca
 
 :

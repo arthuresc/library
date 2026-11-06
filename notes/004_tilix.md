@@ -1,3 +1,9 @@
+---
+title: "Tilix"
+type: evergreen
+tags: [evergreen, area/ambiente]
+status: ativo
+---
 # Tilix
 
 ## Comandos e atalhos

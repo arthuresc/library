@@ -1,3 +1,10 @@
+---
+title: "Aula de aula intro"
+type: aula
+tags: [aula, disciplina/introducao-a-computacao]
+status: registrado
+date: 2026-09-03
+---
 # Aula de aula intro
 
 ## Principal

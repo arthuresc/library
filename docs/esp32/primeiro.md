@@ -1,3 +1,8 @@
+---
+title: "📚 Plano de Estudos: C++ com ESP32 para Hacking RF/WiFi/BLE"
+type: recurso
+tags: [recurso]
+---
 # 📚 Plano de Estudos: C++ com ESP32 para Hacking RF/WiFi/BLE
 
 ## 🗓️ **Cronograma Detalhado (16 Semanas)**

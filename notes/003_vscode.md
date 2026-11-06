@@ -1,3 +1,9 @@
+---
+title: "Utils para o Vscode"
+type: evergreen
+tags: [evergreen, area/ambiente]
+status: ativo
+---
 # Utils para o Vscode
 
 ## Configurações

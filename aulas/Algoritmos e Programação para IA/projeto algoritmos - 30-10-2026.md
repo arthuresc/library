@@ -1,3 +1,10 @@
+---
+title: "Projeto de projeto algoritmos"
+type: aula
+tags: [aula, disciplina/algoritmos-e-programacao-para-ia]
+status: registrado
+date: 2026-10-30
+---
 # Projeto de projeto algoritmos
 
 ## O que precisa ser feito:

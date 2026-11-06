@@ -1,3 +1,9 @@
+---
+title: "_library"
+type: manifesto
+tags: [manifesto, evergreen, area/moc]
+status: ativo
+---
 # \_library
 ## Introdução
 Aqui estou organizando todas as ideias que tenho e as que se concretizam e se tornam o que foram planejadas.

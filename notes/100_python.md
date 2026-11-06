@@ -1,3 +1,9 @@
+---
+title: "Python"
+type: evergreen
+tags: [evergreen, area/linguagem]
+status: ativo
+---
 # Python
 
 ## Características

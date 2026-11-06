@@ -1,3 +1,9 @@
+---
+title: "orientacao a objetos"
+type: evergreen
+tags: [evergreen, area/fundamentos]
+status: rascunho
+---
 ### Construindo diagramas de classe
 
 https://www.devmedia.com.br/construindo-diagramas-de-classes/20121

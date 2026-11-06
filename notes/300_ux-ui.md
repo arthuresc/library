@@ -1,3 +1,9 @@
+---
+title: "UX / UI"
+type: evergreen
+tags: [evergreen, area/fundamentos]
+status: ativo
+---
 # UX / UI
 
 ## Design System - Organizando o "design" do seu projeto

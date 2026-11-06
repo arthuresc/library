@@ -1,3 +1,9 @@
+---
+title: "Trabalho das ODS - Grupo EcoRoute"
+type: aula
+tags: [aula, disciplina/pi]
+status: registrado
+---
 # Trabalho das ODS - Grupo EcoRoute
 
 ## Integrantes:

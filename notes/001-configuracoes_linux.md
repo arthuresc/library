@@ -1,3 +1,9 @@
+---
+title: "Configurações e Solução de Problemas:"
+type: evergreen
+tags: [evergreen, area/ambiente]
+status: ativo
+---
 # Configurações e Solução de Problemas:
 Configuração da maquina Linux para uso pessoal/trabalho.
 Troubleshooter de problemas que já tive antes.

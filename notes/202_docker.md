@@ -1,3 +1,9 @@
+---
+title: "Docker"
+type: evergreen
+tags: [evergreen, area/stack]
+status: ativo
+---
 # Docker
 
 ### TROUBLESHOOTER

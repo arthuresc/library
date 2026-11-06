@@ -1,3 +1,9 @@
+---
+title: "MONGODB"
+type: evergreen
+tags: [evergreen, area/stack]
+status: ativo
+---
 # MONGODB
 
 #### Instalando o robo3t

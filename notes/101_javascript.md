@@ -1,3 +1,9 @@
+---
+title: "Javascript"
+type: evergreen
+tags: [evergreen, area/linguagem]
+status: ativo
+---
 # Javascript
 
 ## Coerção de tipo em contextos booleanos

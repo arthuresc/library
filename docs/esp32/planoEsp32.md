@@ -1,3 +1,8 @@
+---
+title: "📚 Plano de Estudos Baseado em Exercícios com Fontes Acadêmicas"
+type: recurso
+tags: [recurso]
+---
 # 📚 Plano de Estudos Baseado em Exercícios com Fontes Acadêmicas
 
 ## 🎯 **Metodologia Pedagógica Aplicada**

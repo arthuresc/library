@@ -1,3 +1,10 @@
+---
+title: "Aula de aula algoritmos"
+type: aula
+tags: [aula, disciplina/algoritmos-e-programacao-para-ia]
+status: registrado
+date: 2026-08-31
+---
 # Aula de aula algoritmos
 
 ## Principal

@@ -1,3 +1,9 @@
+---
+title: "Feature"
+type: arquivo
+tags: [arquivo]
+status: arquivado
+---
 # Feature
 
 ## Qual o funcionalidade ou melhoria que essa feature se propõe a realizar ?

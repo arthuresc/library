@@ -1,3 +1,9 @@
+---
+title: "Vite Js"
+type: evergreen
+tags: [evergreen, area/stack]
+status: rascunho
+---
 # Vite Js
 
 ## Dicas

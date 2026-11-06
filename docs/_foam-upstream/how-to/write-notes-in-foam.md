@@ -35,7 +35,7 @@ This is a [link to google](https://www.google.com).
 This is a wiki link (aka internal link) to [[note-properties]].
 
 Here is an image:
-![image](../../attachments/foam-icon.png)
+![image](../../../attachments/foam-icon.png)
 
 > this is a blockquote
 > it can span multiple lines

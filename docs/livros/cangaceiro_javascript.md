@@ -1,3 +1,8 @@
+---
+title: "Cangaceiro Javascript"
+type: recurso
+tags: [recurso]
+---
 # Cangaceiro Javascript
 
 ## Atualizações

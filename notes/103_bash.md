@@ -1,3 +1,9 @@
+---
+title: "Bash"
+type: evergreen
+tags: [evergreen, area/linguagem]
+status: ativo
+---
 # Bash
 
 ## Como copiar arquivos ou pastas

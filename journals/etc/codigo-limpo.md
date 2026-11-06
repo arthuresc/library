@@ -1,3 +1,8 @@
+---
+title: "Código limpo [Livro]"
+type: journal
+tags: [journal]
+---
 # Código limpo [Livro]
 
 ## Regra dos escoteiros:

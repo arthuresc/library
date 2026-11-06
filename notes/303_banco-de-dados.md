@@ -1,3 +1,9 @@
+---
+title: "banco de dados"
+type: evergreen
+tags: [evergreen, area/fundamentos]
+status: ativo
+---
 ## Modelagem de Bancos de Dados
 
 ### Links importantes
