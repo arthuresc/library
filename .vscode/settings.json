@@ -6,5 +6,5 @@
   "cSpell.language": "en",
   "python-envs.defaultEnvManager": "ms-python.python:conda",
   "python-envs.defaultPackageManager": "ms-python.python:conda",
-  "foam.openDailyNote.directory": "journals/daily"
+  // "foam.openDailyNote.directory": "journals/daily"
 }
